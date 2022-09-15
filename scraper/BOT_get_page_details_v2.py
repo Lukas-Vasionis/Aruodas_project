@@ -14,7 +14,7 @@ from tqdm import tqdm
 
 pd.set_option('display.expand_frame_repr', False)
 
-crawl_date_dd_mm_yyyy = '13_09_2022'
+crawl_date_dd_mm_yyyy = '15_09_2022'
 
 
 def access_url_df(crawl_date_dd_mm_yyyy):
@@ -27,12 +27,12 @@ def access_url_df(crawl_date_dd_mm_yyyy):
 def enter_url(url):
     # url = 'https://www.aruodas.lt/butai/vilniuje/?FPriceMin=100000&FPriceMax=200000'
     driver.get(url)
-    time.sleep(1)
+    time.sleep(0.5)
     try:
         driver.find_element_by_id("onetrust-accept-btn-handler").click()
     except:
         pass
-    time.sleep(1)
+
 
 
 def scrape_data():
@@ -66,8 +66,8 @@ options = Options()
 options.headless = False
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
-list_crawled_url = access_url_df('13_09_2022')['url'].to_list()
-list_crawled_url = list_crawled_url[0:2]
+list_crawled_url = access_url_df(crawl_date_dd_mm_yyyy)['url'].to_list()
+# list_crawled_url = list_crawled_url[0:2]
 
 df_all_scraped_main = pd.DataFrame(columns=['url_crawl'])
 df_all_scraped_crime = pd.DataFrame(columns=['url_crawl'])
@@ -96,3 +96,4 @@ def save_main(file_name):
 
 save_main(f'data/scraped_date_crawled_{crawl_date_dd_mm_yyyy}.xlsx')
 # print(df_all_scraped.to_markdown())
+#

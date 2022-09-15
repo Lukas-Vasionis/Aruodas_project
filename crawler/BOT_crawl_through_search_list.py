@@ -1,32 +1,16 @@
 import datetime
 import time
 from bs4 import BeautifulSoup
-# import os
-# import regex as re
 import pandas as pd
-# import requests
-# from selenium.common.exceptions import NoSuchElementException, ElementClickInterceptedException
-# from selenium.webdriver import ActionChains
-# from selenium.webdriver.common.keys import Keys
-#
-# from fake_useragent import UserAgent
-# from requests_html import HTMLSession
-
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-# from selenium.webdriver.support.ui import WebDriverWait
-# from selenium.webdriver.support import expected_conditions as EC
-# from selenium.webdriver.common.by import By
-# from time import sleep
-# from datetime import date
+from selenium.webdriver.common.by import By
 import random
+
 pd.set_option('display.max_rows', 1000)
 pd.set_option('display.max_columns', 1000)
 pd.set_option('display.max_colwidth', 1000)
 
-# df_url_ads=pd.read_csv('data/first_list_of_urls.csv')
-# print(df_url_ads.to_markdown())
-# exit()
 
 # Initiate the browser
 
@@ -35,7 +19,7 @@ pd.set_option('display.max_colwidth', 1000)
 def start_bot(curr_url):
     driver.get(curr_url)
     time.sleep(1)
-    driver.find_element_by_id("onetrust-accept-btn-handler").click()
+    driver.find_element(By.ID,"onetrust-accept-btn-handler").click()
     time.sleep(1)
 
 
@@ -65,6 +49,7 @@ def get_next_page_url(curr_url):
         div_url = curr_url.rsplit('/', 1)
         url_root = div_url[0].rsplit('/', 1)[0]
         num = div_url[0].rsplit('/', 1)[1].strip()
+        print(f'Page {num}')
         url_end = div_url[1]
         next_url = f'{url_root}/{int(num) + 1}/{url_end}'
     return next_url
@@ -82,6 +67,7 @@ miestas='vilniuje'
 price_min='100000'
 curr_url = f'https://www.aruodas.lt/butai/{miestas}/?FPriceMin={price_min}'
 # curr_url = 'https://www.aruodas.lt/butai/vilniuje/puslapis/76/?FPriceMin=100000'
+curr_url = 'https://www.aruodas.lt/butai/vilniuje/'
 next_url_generated = get_next_page_url(curr_url)
 
 next_url_resulted = next_url_generated
