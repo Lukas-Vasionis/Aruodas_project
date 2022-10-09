@@ -1,94 +1,486 @@
-url_crawl,skelbimo_pavadinimas,kaina_eur,Plotas:,Kambarių sk.:,Aukštas:,Aukštų sk.:,Metai:,Pastato tipas:,Šildymas:,Įrengimas:,Pastato energijos suvartojimo klasė:,Ypatybės:,Papildomos patalpos:,Apsauga:,Nuoroda,Įdėtas,Redaguotas,Įsiminė,Peržiūrėjo,coordinate_x,coordinate_y,Skelbimą peržiūrėjo (iš viso/šiandien),error_get_energy_consumption_class,error_get_air_polution_data,Skelbimo tekstas,Namo numeris:,Papildoma įranga:,energijos_suvartojimo_klase,Azoto dioksidas (NO2),Kietosios dalelės (KD10),Aktyvus iki
-https://www.aruodas.lt/butai-vilniuje-paupyje-aukstaiciu-g-parduodamas-5-kambariu-butas-su-erdvia-terasa-1-3256794/,"Vilnius, Paupys, Aukštaičių g., 5 kambarių butas",1190000.0,"141,56 m²",5,3,4,2022,Mūrinis,Centrinis kolektorinis,"Dalinė apdailaNAUDINGA:, Interjero dizaineriai",A,"Aukštos lubos, Tualetas ir vonia atskirai, Virtuvė sujungta su kambariu",Terasa,Kodinė laiptinės spyna,www.aruodas.lt/1-3256794,2022-10-03,2022-10-04,14,895/101 (iš viso/šiandien),54.678993,25.300272,895/101,'NoneType' object has no attribute 'text','NoneType' object has no attribute 'find_all',"PARDUODAMAS 5 KAMBARIŲ BUTAS SU ERDVIA TERASA NAUJAME PROJEKTE, PRESTIŽINĖJE VIETOJE, PAUPYJE.
-________________________________________________________________
-BUTO PRIVALUMAI:
-• YRA PARENGTA BUTO ĮRENGIMO VIZUALIZACIJA SU BALDŲ, ELEKTROS IR KITŲ KOMUNIKACINIŲ TINKLŲ IŠDĖSTYMU. NUOTRAUKOSE PATEIKTAS ĮRENGIMO PAVYZDYS.
-• A KLASĖS ENERGINIS NAUINGUMAS;
-• DIDELI PANORAMINIAI LANGAI;
-• AUKŠTOS LUBOS;
-• NAUDOTOS TIK AUKŠČIAUSIOS KOKYBĖS STATYBINĖS MEDŽIAGOS.
-• PARKAVIMAS – POŽEMINIS.
-• ĮRENGTOS DVIRAČIŲ SAUGYKLOS;
-• SAUGI, APTVERTA TERITORIJA SU VAIZDO STEBĖJIMO KAMEROMIS.
-• KIEME ĮRENGTOS VAIKŲ ŽAIDIMŲ AIKŠTELĖS, SUOLIUKAI, PASIVAIKŠČIOJIMO TAKAI;
-• PUIKI LOKACIJA, PAUPYS, VILNIAUS MIESTO CENTRAS PASIEKIAMAS VOS PER KELIAS MINUTES;
-• NETOLIESE GAUSU KAVINIŲ, RESTORANŲ, VEIKIA MENO GALERIJA, TEATRAS „PASAKA“, BEI DAUG KITŲ PASLAUGŲ IR PRAMOGŲ VIETŲ.
-• ŽALIAUSIA SENAMIESČIO DALIS, ŠALIA PAVILNIŲ REGIONINIS PARKAS, KŪDRŲ PARKAS, PALEI VILNIOS UPĘ DRIEKIASI DVIRAČIŲ TAKAI, NETOLIESE BERNARDINŲ IR MISIONIERIŲ SODAI.
-________________________________________________________________
-BENDRA INFORMACIJA:
-- Bendras plotas: 141,56 kv. m. + 35 kv. m. terasa (neįskaičiuota į bendrą plotą);
-- Statybos metai: 2022;
-- Kambarių skaičius: 5;
-- Aukštas: 3;
-- Įrengimo lygis: dalinė apdaila;
-- Šildymas: centrinis kolektorinis;
-- Aukštų skaičius: 4 aukštai + požeminė parkavimo aikštelė;
-- Parkingas: po pastatu įrengta parkavimo aikštelė.________________________________________________________________
-KOMUNIKACIJOS:
-- Elektra: išvedžiota;
-- Vandentiekis – miesto;
-- Kanalizacija – miesto.
-________________________________________________________________
-VIETA IR INFRASTRUKTŪRA:
-- Iki Vilniaus katedros – 1,7 km.
-~ 800 m Užupio gimnazija;
-~ 900 m P. Vileišio progimnazija;
-~ 260 m lopšelis-darželis ""Klaužada"".
-~ 70 m PC Rimi;
-~ 200 m Paupio turgus;
-~ 350 m Kūdrų parkas;
-Šalia maitinimo įstaigos, įvairios parduotuvės, pramogų ir meno vietos.
-~ 500 m iki artimiausios viešojo transporto stotelės.Visus naujausius CAPITAL nekilnojamojo turto skelbimus rasite mūsų internetiniame puslapyje www.capital.lt. Kviečiame apsilankyti!",,,,,,
-https://www.aruodas.lt/butai-vilniuje-senamiestyje-siauliu-g-unikali-galimybe-gyventi-pacioje-senamiescio-1-3236508/,"Vilnius, Senamiestis, Šiaulių g., 4 kambarių butas",1750000.0,"204,88 m²",4,2,3,2009,Mūrinis,Centrinis kolektorinis,Įrengtas,,"Aukštos lubos, Uždaras kiemas, Virtuvė sujungta su kambariu","Balkonas, Terasa, Pirtis, Vieta automobiliui, Drabužinė","Šarvuotos durys, Signalizacija, Kodinė laiptinės spyna, Vaizdo kameros, Budintis sargas",www.aruodas.lt/1-3236508,2022-09-24,2022-10-07,16,1186/45 (iš viso/šiandien),54.677562,25.282737,1186/45,,,"Unikali galimybė gyventi pačioje Senamiesčio širdyje esančiuose moderniuose apartamentuose projekte “Mikalojaus žiedas”. Apartamentai yra vienoje geidžiamiausių senojo Vilniaus vietų – ramioje Žemaitijos ir Šiaulių gatvių sankryžoje, greta jaukių Senamiesčio bažnyčių – Šv. Mikalojaus, Šv. Kazimiero bei Aušros vartų, taip pat greta kultūros centrų – Šiuolaikinio meno centro, Lietuvos Nacionalinės Filharmonijos bei gausybės dailės galerijų.
-“Mikalojaus žiedo” apartamentuose yra viskas, ko reikia patogiam gyvenimui – požeminė automobilių stovėjimo aikštelė, uždara teritorija, visa parą budinti apsauga, jaukus vidinis kiemas, namo gyventojams įrengta SPA zona su pirtimis, taip pat išskirtinė kaimynystė.
-Šie išskirtiniai apartamentai - puikus pasiūlymas ieškantiems išskirtinės kokybės ir prabangos!BENDRA INFORMACIJA:
-Adresas: Šiaulių gatvė, 10 , Senamiestis
-Bendras plotas: 204,88 kv.m
-Aukštas: 2/4
-Kambarių sk.: 4
-Namo tipas: mūrinis
-Statybos metai: 2009 m., rekonstrukcija - 2014 m.
-Papildomos patalpos: uždara, privatumą sukurianti terasa.INFORMACIJA APIE APARTAMENTUS:
-Funkcionalus 4 kambarių išplanavimas, erdviuose namuose suplanuota bendra erdvė svetainės, valgomojo bei virtuvės, 2 atskiri miegamieji kambariai, 3 vonios kambariai, turkiška pirtis su Jacuzzi, drabužinės. Išskirtinis interjeras, aukšta medžiagų kokybė.
-Žvarbiais rudens ir žiemos vakarais savo šiluma Jus apgaubs apartamentuose įrengtas įspūdingas židinys.
-Apie kiekvieną interjero detalę pagalvojo ir įgyvendino dizainerė E. Mieliauskienė.
-Butas parduodamas su visais jame esančiais baldais, interjero įrengimu ir buitine technika.
-Daugybė langų leidžia mėgautis saulės šviesa visą dieną. Langai orientuoti į rytų ir vakarų puses.
-Liftas Jūsų patogumui, kuriuo iš parkavimo zonos pakilsite į butą.
-Išskirtinė kaimynystė.
-Visą parą budinti apsauga.
-Apatiniame namo aukšte komplekso gyventojams įrengta SPA zona su pirtimis.
-Uždaras, jaukus vidinis kiemas.
-Butas parduodamas su trimis požeminėmis parkavimo vietomis.ĮRENGIMAS:
-Šildymo tipas: grindinis (reguliuojamas).
-Grindys: ąžuolinės, plytelės.
-Sienos: dažytos, tapetai.
-Langai: mediniai.
-Kondicionierius.
-Apsaugos sistema.
-Židinys.
-Terasa.SUSISIEKIMO INFRASTRUKTŪRA:
-350 m iki Rotušės aikštės
-1 km iki Gedimino prospekto
-1,2 km iki Katedros aikštės
-1,4 km iki Bernardinų sodo
-300 m iki artimiausios maisto prekių parduotuvės
-5 km iki Vilniaus tarptautinio oro uosto
-2 km iki Vilniaus autobusų ir traukinių stoties",10,"Su baldais, Šaldytuvas, Virtuvės komplektas, Viryklė, Židinys, Indaplovė, Dušo kabina, Vonia",4 Klasė Vidutinė (4-5),15 µg/m3,22.6 µg/m3,
-https://www.aruodas.lt/butai-vilniuje-snipiskese-lvivo-g-tarpininku-paslaugos-nedomina-rimtai-aciu-1-3246223/,"Vilnius, Šnipiškės, Lvivo g., 17 kambarių butas",1670000.0,598 m²,17,4,4,1940,Mūrinis,"Centrinis, kita",Įrengtas,,,,,www.aruodas.lt/1-3246223,2022-10-03,2022-10-03,19,288/17 (iš viso/šiandien),54.694609,25.284125,288/17,'NoneType' object has no attribute 'text',,"TARPININKŲ PASLAUGOS NEDOMINA, RIMTAI. AČIŪ!Bendrai parduodama 17 butų, sudarančių visą pastatą. Taip pat priklauso apie 6 arų sklypas.",9,,,14.9 µg/m3,27.1 µg/m3,2022-12-02
-https://www.aruodas.lt/butai-vilniuje-senamiestyje-saltiniu-g-erdvus-namai-ant-senamiescio-kalvos-kvartale-1-3251923/,"Vilnius, Senamiestis, Šaltinių g., 5 kambarių butas",1050000.0,245 m²,5,1,4,2009,Mūrinis,Centrinis kolektorinis,Įrengtas,,,,,www.aruodas.lt/1-3251923,2022-09-19,2022-10-05,15,748/20 (iš viso/šiandien),54.675873,25.27956,748/20,'NoneType' object has no attribute 'text','NoneType' object has no attribute 'find_all',"Erdvūs namai ant Senamiesčio kalvosKvartale „Šaltinių namai“ parduodamas įrengtas kotedžas su privačiu sklypu. Ši vieta pasižymi ramia ir saugia aplinka. „Šaltinių namų“ teritorija yra prižiūrima, o tamsiuoju paros laiku čia veikia fizinė apsauga. Kvartalo pirmuose aukštuose yra įsikūrę įvairūs verslai: kavos manufaktūra, ekologiški desertai, grožio salonas, odontologijos klinika. Pėsčiomis pasiekiamas Senamiestis, muziejai bei parduotuvės.Kotedžas suplanuotas keliuose lygiuose. Sodo aukšte suplanuota laisvalaikio erdvė, virtuvės zona, paruoštais įvadais saunai bei išėjimu į terasą – nuosavą sklypą. Pirmajame namo aukšte suplanuota svetainės zona su pilnai įrengta virtuvės ir valgomojo zona, holas su erdvia drabužine bei svečių san.mazgu. Antrajame aukšte tėvų miegamasis su privačiu vonios kambariu, drabužine bei lodžija, vaiko kambarys, greta kurio taip pat įrengtas atskiras vonios kambarys ir skalbykla.
-Mansardos erdvės - svečių miegamasis, darbo zona bei vaikų žaidimų zona ir biblioteka.Šiuose namuose dominuoja šakotas ąžuolas bei skirtingų paviršių akmuo. Kokybiškos Itališkos plytelės, tarsi atsvara šiltoms medžiu dengtoms sienoms. Visame kotedže įrengta rekuperacija. San.mazguose įrengti vokiški maišytuvai, šveicariška keramika, rinkos lyderiai Geberit, Laufen, Grohe. Patvarūs laikui kokybiški šių namų sprendimai Jūsų komfortiško gyvenimo garantas.Už papildomą kainą yra galimybė įsigyti garažą bei parkavimosi vietą požeminėje aikštelėje.",,,,,,
-https://www.aruodas.lt/butai-vilniuje-senamiestyje-odminiu-g-175-kvm-aukstu-lubu-apartamentai-isikure-1-3245993/,"Vilnius, Senamiestis, Odminių g., 4 kambarių butas",1300000.0,175 m²,4,2,5,2017,Mūrinis,Centrinis kolektorinis,Įrengtas,,"Aukštos lubos, Uždaras kiemas","Balkonas, Drabužinė",Kodinė laiptinės spyna,www.aruodas.lt/1-3245993,2022-10-05,2022-10-05,12,378/25 (iš viso/šiandien),54.684895,25.283575,378/25,'NoneType' object has no attribute 'text','NoneType' object has no attribute 'find_all',"175 kv.m aukštų lubų apartamentai, įsikūrę puošniame, senąją Vilniaus istoriją menančiame pastate, tarsi prikelti naujam gyvenimui pasitelkiant profesionalių ir talentingų architektų komandą – dabar čia vietą atrado patys moderniausi sprendimai, aukščiausios klasės medžiagos, žymiausių gamintojų baldai ir technika, akį traukiantis stilingas interjeras.Kasdienis kelias namo ves per uždarą vidinį kiemą, panoraminis liftas pakels iki apartamentų durų, kurias atvėrę pateksite į šeimos namus - 3 itin erdvūs miegamieji, 3 vonios kambariai, 2 drabužinės, patogiai suplanuota atkira virtuvė. Namų centras - įspūdinga didelių langų, šviesos, autentiškų vaizdų ir židinio jaukumo pripildyta svetainė - puiki vieta laikui su pačiais svarbiausiais...Tai išskirtinis būstas vertinantiems Senamiesčio autentiką. Įspūdingas erdves puošiantys subtilūs lipdiniai, raudonųjų stogų paveikslai, koklinis pečius, plačios dvivėrės durys - detalės, kuriančios ypatingų namų atmosferą.Ne mažiau puiki ir lokacija – gyvensite gražiausių Senamiesčio gatvelių ir vaizdų apsuptyje, atokiau nuo šurmulio, kur džiugins privatumas, o poilsį užtikrins miegamųjų orientacija į ramų vidinį kiemelį. Įsikūrę čia būsite apdovanoti privilegija visur keliauti pėsčiomis, o spūstyse praleistas laikas liks tik blankiu prisiminimu.Šie namai – lyg meno kūrinys, atskleidžiantis žavingos praeities ir dabarties estetikos dermę.Galbūt tai Jūsų namai?PRIVALUMAI- RAMIOJE SENAMIESČIO VIETOJE;
-- 2017 METAIS ATLIKTA PILNA RENOVACIJA (elektros instaliacija, vamzdynai, perdangos, langai, radiatoriai ir kt.);
-- AUKŠČIAUSIOS KOKYBĖS MEDŽIAGOS, BALDAI (Boconcept, Ligne Roset, Hacker virtuvė, Delight šviestuvai, Step Master durys, Laufen, Kaldewei, Axor santechnika);
-- AUKŠTOS LUBOS, DIDELI LANGAI;
-- ARCHITEKTŲ KOMANDOS KURTAS NAUJAS VIDAUS PLANAS, INTERJERAS;
-- ATSKIRA VIRTUVĖS ZONA;
-- ŽIDINYS;
-- ATSIVERIANTYS SENAMIESČIO VAIZDAI;
-- UŽDARAS VIDINIS KIEMAS, PANORAMINIS LIFTAS.Kviečiu apžiūrai Jums patogiu metu!
------------------
-NT brokerė Agnė Navickienė
-Tel.: 8 687 83367
-El.p.: agne.navickiene@solds.lt
-",,"Virtuvės komplektas, Židinys, Indaplovė, Dušo kabina, Vonia",,,,
+url_crawl,skelbimo_pavadinimas,kaina_eur,Namo numeris:,Plotas:,Kaina mėn.:,Kambarių sk.:,Aukštas:,Aukštų sk.:,Metai:,Pastato tipas:,Šildymas:,Įrengimas:,Nuoroda,Įdėtas,Redaguotas,Aktyvus iki,Įsiminė,Peržiūrėjo,coordinate_x,coordinate_y,Skelbimą peržiūrėjo (iš viso/šiandien),energijos_suvartojimo_klase,error_get_air_polution_data,Skelbimo tekstas,Ypatybės:,Papildoma įranga:,Apsauga:,error_get_energy_consumption_class,Papildomos patalpos:,Azoto dioksidas (NO2),Kietosios dalelės (KD10),error_get_coordinates,Pastato energijos suvartojimo klasė:
+https://www.aruodas.lt/butu-nuoma-vilniuje-baltupiuose-kalvariju-g-nuomojasi-1-kambario-butaslabai-patogi-vieta-4-1184084/,"Vilnius, Baltupiai, Kalvarijų g., 1 kambario buto nuoma",300.0,157,21 m²,300 €,1,9,9,1985,Mūrinis,Centrinis,Įrengtas,www.aruodas.lt/4-1184084,2022-10-08,2022-10-08,2022-10-23,17,675/283 (iš viso/šiandien),54.723304,25.285474,675/283,6 Klasė Bloga (6-8),'NoneType' object has no attribute 'find_all',"Nuomojasi 1 kambario butas.Labai patogi vieta,netoli J.Kazlausko stotelė ir didelė parduotuvė Norfa. Kaina 300e plius depozitas",,,,,,,,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-naujojoje-vilnioje-pramones-g-isnuomuojamas-jaukus-butukas-naujojoje-4-1148734/,"Vilnius, Naujoji Vilnia, Pramonės g., 1 kambario buto nuoma",250.0,97,20 m²,250 €,1,3,8,1980,Blokinis,Dujinis,Įrengtas,www.aruodas.lt/4-1148734,2022-09-30,2022-10-09,2022-12-11,106,1163/133 (iš viso/šiandien),54.695362,25.428853,1163/133,,'NoneType' object has no attribute 'find_all',"Išnuomuojamas jaukus butukas Naujojoje Vilnioje. Šalia sporto klubas, prekybos centrai. Pirmame aukšte įsikūrusi kavinė, kurioje galėsite, bet kada pavalgyti. Netoli, kitoje Vilnelės pusėje, parkas.-geras susisiekimas
+-nemokamas parkingas
+-internetas
+-plastikiniai langaitrumpiausias nuomos laikotarpis 2mėn.",Virtuvė sujungta su kambariu,"Skalbimo mašina, Su baldais, Šaldytuvas, Viryklė",Šarvuotos durys,'NoneType' object has no attribute 'text',,,,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-karoliniskese-rolando-jankausko-g-nuomoju-kambari-dvieju-kambariu-bute-kitame-4-1184132/,"Vilnius, Karoliniškės, Rolando Jankausko g., kambario nuoma",200.0,3,47 m²,200 €,1,12,12,1975,Blokinis,Centrinis,Įrengtas,www.aruodas.lt/4-1184132,2022-10-08,2022-10-08,2022-11-22,6,545/291 (iš viso/šiandien),54.690574,25.210067,545/291,,'NoneType' object has no attribute 'find_all',Nuomoju kambarį dviejų kambarių bute. Kitame kambaryje gyvena šeimininkė(dažnai išvažiuoja į sodus). Visi reikalingi baldai ir patogumai yra. Kaina nurodyta su komunalinėm,Buto dalis,"Skalbimo mašina, Su baldais, Šaldytuvas, Virtuvės komplektas, Viryklė, Dušo kabina, Vonia",,'NoneType' object has no attribute 'text',Balkonas,,,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-pilaiteje-tolminkiemio-g-isnuomojamas-3-kambariai-3-kambariu-butebe-4-1183928/,"Vilnius, Pilaitė, Tolminkiemio g., kambario nuoma",250.0,3,20 m²,250 €,1,4,5,1993,Monolitinis,Centrinis,Įrengtas,www.aruodas.lt/4-1183928,2022-10-07,2022-10-07,2022-11-21,4,927/234 (iš viso/šiandien),54.703361,25.178999,927/234,4 Klasė Vidutinė (4-5),'NoneType' object has no attribute 'find_all',"Išnuomojamas 3 kambariai 3 kambarių bute,be šeimininkų po remonto Pilaitės, Tolminkiemio g. Nuomojamas su visais baldais ir buitine technika, kambariej rakinamos.
+Nuomojamas skaidriai su sutartimi.
+Butas randasi strategiškai labai geroje vietoje, šalia miškas, ežeras iki ežero apie700m, daug įvairių parduotuvių.
+Viešoji transporto stotelė prie pat namo, puikus susisiekimas su visais miesto rajonais. Šalia namo yra trys nemokami stovėjimo aikštelės, vietą automobiliui visada rasite.
+Šarvuotos durys, plastikiniai langai du balkonai, tualetas ir vonia atskirai,greitas internetas.
+1 kambarys 20kv persikų spalvos vienam žmogui 250eu+450eur depozitas.
+1 kambarys 20kv. violetinės spalvos vienam žmogui 250eur, dviem 300eur depozitas 450eur.
+1 kambarys 14kv žalios spalvos vienam žmogui 250eur+450eur. depozitas.
+Išnuomojamas dar 2 atskiri kambariai 4 kambarių bute Fabijoniškėse.
+1 kambarys 15kv. 220eur+430eur depozitas.
+1 kambarys 12kv.220eur+430eur depozitas.
+Depozitas bus įskaičiuota į nuoma pasibaigus nuomai,skirtumas bus grąžintas.
+Nuomojamas iki01.07.2023.su galimybe pratęsti. Kambariai labai šilti.
+Nedideli komunalinės mokestį, todėl kad dalinosi ant visų.
+Nuomojamas dirbančiam žmogui be žalingų įpročių.
+Be tarpininkų.
+Nėra agentūros mokestį.
+Be šeimininkų.
+Be gyvūnų.
+Visa informacija ir bendravimas tik telefonu.
+Angliškai ne kalbų.","Tualetas ir vonia atskirai, Internetas",,,,,,,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-balsiuose-kryzioku-sodu-2-oji-g-pigi-buto-kambariu-nuoma-darbuotojams-ar-4-1135342/,"Vilnius, Balsiai, Kryžiokų Sodų 2-oji g., kambario nuoma 5 kambarių bute",150.0,,200 m²,150 €,5,3,3,1998,Mūrinis,"Dujinis, kietu kuru",Įrengtas,www.aruodas.lt/4-1135342,2022-03-06,2022-10-08,2022-11-19,8,5364/90 (iš viso/šiandien),54.791961,25.353939,5364/90,,'NoneType' object has no attribute 'find_all',"Pigi buto, kambarių nuoma darbuotojams ar įmonėmsNuomojami 4 vietų kambariai 3-4 studentams, darbuotojų brigadoms ar įmonėms privačiame name ilgesniam laikotarpiui:1. 3 aukšte su atskiru tualetu, dušu, skalbykle ir bendra virtuve.
+2. 2 aukšte su bendru tualetu, dušu, skalbykle, virtuve.3. Greitu metu atsiras dar 4 vietos pusrusio aukšte su atskiru tualetu, dušu, skalbykle ir atskira virtuve.Kaina žmogui 150/mėn. su komunalinėmisp.s. pavieniams asmenims nenuomojame!Сдаются 4-х местные комнаты для 3-4 студентов, коллективов сотрудников или компаний в частном доме на более длительный срок:
+1. На 3 этаже с отдельным туалетом, душем, прачечной и общей кухней.
+2. На 2 этаже с общим туалетом, душем, прачечной, кухней.
+3. В ближайшее время на антресольном этаже появятся еще 4 места с отдельным туалетом, душем, прачечной и отдельной кухней.
+Цена на человека 150р/мес. с коммунальными услугами
+p.s. мы не сдаем в аренду частным лицам!4-bed rooms for rent for 3-4 students, teams of employees or companies in a private house for a longer period:
+1. On the 3rd floor with separate toilet, shower, laundry room and shared kitchen.
+2. On the 2nd floor with shared toilet, shower, laundry room, kitchen.
+3. Soon there will be 4 more places on the half basement floor with separate toilet, shower, laundry room and separate kitchen.
+The price per person is 150/month. with utilities
+p.s. we do not rent to seperate person!
+",,,,'NoneType' object has no attribute 'text',,,,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-zirmunuose-zygio-g-4-1016629/,"Vilnius, Žirmūnai, Žygio g., 1 kambario buto nuoma",300.0,1,30 m²,300 €,1,7,9,1970,Mūrinis,Centrinis,Įrengtas,www.aruodas.lt/4-1016629,2022-10-03,2022-10-06,,45,13612/25 (iš viso/šiandien),54.704237,25.289988,13612/25,5 Klasė Vidutinė (4-5),,"
+",,"Skalbimo mašina, Viryklė, Vonia",Šarvuotos durys,,Balkonas,16.4 µg/m3,25.7 µg/m3,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-fabijoniskese-l-giros-g-isnuomojamas-vienasdidysis-apie-15-kvm-4-1166864/,"Vilnius, Fabijoniškės, L. Giros g., kambario nuoma",150.0,92,30 m²,150 €,1,7,9,1990,Blokinis,Centrinis,Įrengtas,www.aruodas.lt/4-1166864,2022-08-16,2022-10-03,,13,2971/85 (iš viso/šiandien),54.738328,25.241511,2971/85,5 Klasė Vidutinė (4-5),'NoneType' object has no attribute 'find_all',"Išnuomojamas vienas(didysis) apie 15 kv.m. kambarys su balkonu trijų kambarių bute. Kambariui reikėtų perdažyti sienas. Kituose dviejuose kambariuose gyvena 5 asmenų šeima. Kambaryje gali gyventi ir keli asmenys, taip pat turintys gyvūną. Mėgstantiems tvarka butas netiks. Platesnė info telefonu.
+",,,,,,,,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-fabijoniskese-s-staneviciaus-g-atsilaisvino-kambarys-merginai-fabijoniskese-4-1182136/,"Vilnius, Fabijoniškės, S. Stanevičiaus g., kambario nuoma",180.0,52,20 m²,180 €,1,2,16,1994,Monolitinis,Centrinis,Įrengtas,www.aruodas.lt/4-1182136,2022-10-02,2022-10-02,2022-11-16,15,2657/189 (iš viso/šiandien),54.725032,25.253168,2657/189,4 Klasė Vidutinė (4-5),,"Atsilaisvino kambarys MERGINAI Fabijoniškėse Stanevičiaus g. 52 erdviame 4 kambarių bute! Be tarpininkų – NĖRA jokio agentūros mokesčio! BE ŠEIMININKŲ! Kambariai nuomojami skaidriai su sutartimi - įmokos mokamos pavedimais. Kituose kambariuose gyvena 3 merginos, todėl ieškome taip pat merginos.Yra šviesolaidinis internetas, Wi-Fi. Visa buitinė technika: skalbimo mašina, integruota indaplovė, kaitlentė, orkaite, gartraukis, talpus šaldytuvas, mikrobangų krosnelė, el. virdulys, dulkių siurblys.Erdvi virtuvė, praplėsta prijungus balkoną. Plastikiniai langai, dvejos šarvuotos durys, rakinama laiptinė su telefonspyne. Namo kiemą stebi apsaugos kameros. Prie namo yra nemokama aikštelė automobilių parkavimui. Visai neseniai namas atnaujintas - pakeisti visi laiptinės langai ir durys.Tualetas ir vonia atskirai. Bute yra tamsus kambariukas – sandėliukas, kuriame sumontuota skalbimo mašina ir lentynos daiktams laikyti. Taip pat yra atskira rakinama patalpa dviračių laikymui su sumontuotais dviračių laikikliais ant sienos. Koridoriuje yra talpi sieninė spinta.Butas puikioje vietoje. Prie pat yra Vilniaus kolegija – 600 m., Vilniaus, Mykolo Riomerio universitetas – 1 km.
+Prie pat namo viešojo transporto stotelės.Nuomos kainos:
+1 Kambarys 19 kv.m. su pilka sofa lova – 190 € (UŽIMTAS)
+2 Kambarys 13 kv.m. šviesus – 190 € (UŽIMTAS)
+3 Kambarys 10,6 kv.m. rusvas – 180 € (LAISVAS)
+4 Kambarys 14,7 kv.m. su veidrodine spinta – 190 € (UŽIMTAS)Reikalavimai nuomininkui: kambarys nuomojamas merginai, be naminių gyvūnų.
+Tel +37066808930",Internetas,"Skalbimo mašina, Su baldais, Šaldytuvas, Virtuvės komplektas, Viryklė, Indaplovė, Dušo kabina","Šarvuotos durys, Vaizdo kameros",,,11.5 µg/m3,20 µg/m3,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-naujojoje-vilnioje-pramones-g-kambariu-lovu-nuoma-vieno-zmogaus-4-1179221/,"Vilnius, Naujoji Vilnia, Pramonės g., kambario nuoma 9 kambarių bute",130.0,97,500 m²,130 €,9,3,4,1967,Mūrinis,Elektra,Įrengtas,www.aruodas.lt/4-1179221,2022-09-21,2022-09-22,2022-11-05,5,873/20 (iš viso/šiandien),54.695362,25.428853,873/20,,'NoneType' object has no attribute 'find_all',"Kambariu, lovu nuomaVieno žmogaus apgyvendinimas su visais patogumais 130Eur/mėn. Bendrabučio tipo patalpos Naujoje Vilnioje.Проживание на одного человека со всеми удобствами 130 евро/мес. Помещения общежития в Новом Вильнюсе.",,,,'NoneType' object has no attribute 'text',,,,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-uzupyje-filaretu-g--rezervuotas-iki-spalio-15-dienos-4-1183664/,"Vilnius, Užupis, Filaretų g., kambario nuoma",290.0,54,26 m²,290 €,1,2,2,"1990 statyba, 2009 renovacija",Mūrinis,Centrinis kolektorinis,Įrengtas,www.aruodas.lt/4-1183664,2022-10-06,2022-10-08,,11,1039/116 (iš viso/šiandien),54.68685,25.316471,1039/116,,'NoneType' object has no attribute 'find_all',"==== rezervuotas iki spalio 15 dienos =======1-vienas kambarys ( 26kvm ) 3-ijų kambarių bute prestižiniame Antakalnio - Uzupio mikrarajone , Filaretų g 54 , šalia Pavilnio regioninio parko.290 eur -mėn.
+Atsilaisvina spalio 10d.
+Nuomojamas vienam asmeniui ( moteriai, merginai )
+Kituose kambariuose gyvena ramios nuomininkės-merginos.
+visa info . tel +37065776846kambaryje yra lova 140-200cm, spintos, komodos, stalas, kėdės, roletai, užuolaidos, pastatoma lempa.Internetas +buitinių atliekų išvežimas+kitos paslaugos = 5€ mėn.
+1/3 komunalinių mokesčių. Komunaliniai mokesčiai visai nedideli (vasara 15-20€ mėn. žiema 35-45€ mėn.)BENDRA INFORMACIJA
+Viso Buto plotas 90 kv.m. .
+2 aukštas iš 2 -Namas rekonstruotas 2009m
+Įregtas šildymas - dujinis autonominis
+Balkonas 15 kv.m
+virtuve 25 kv.m.
+drabuzine 10 kv.m
+2 Wc 10 kv.mŠalia namo yra vietos automobiliui -nemokamas parkavimas. -Pietinė pusė
+Su baldais. Yra dujinė,orkaitė, šaldytuvas, mikrobangė, skalbimo mašina, Yra Telia šviesolaidinis internetas.
+Išplanavimas: Virtuve atskira 3 kambariai izoliuoti 2 Vonios kambariai su tualetu. Balkonas 15 kvm. Erdvus koridorius su spintomis.VIETA, SUSISIEKIMAS
+– Asfaltuotas privažiavimas
+– Rami vieta
+– Solidi ir saugi kaimynystė
+– 400-700m. iki parduotuvės Aibė-Rimi
+– Tyluma pušynų apsuptyje ir grynas oras
+– Namas ramioje vietoje
+– Susisiekimas patogus tiek viešuoju, tiek nuosavu transportu su bet kuria miesto dalimi
+– Viešojo transporto stotelę pasieksite per keletą min.Sąlygos: - NĖRA TARPININKAVIMO MOKESČIŲ! - IMAMAS 400 eur, UŽSTATAS, KURIS GRĄŽINAMAS SUTARTIES TERMINO PABAIGOJE.",,,,'NoneType' object has no attribute 'text',,,,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-naujojoje-vilnioje-pramones-g-nuomojama-1-kambario-studija-naujausia-4-1177479/,"Vilnius, Naujoji Vilnia, Pramonės g., 1 kambario buto nuoma",299.0,141,20 m²,299 €,1,3,5,"1980 statyba, 2020 renovacija",Blokinis,Elektra,Įrengtas,www.aruodas.lt/4-1177479,2022-10-03,2022-10-03,2022-10-30,56,655/60 (iš viso/šiandien),54.694177,25.442351,655/60,,,"Nuomojama 1 kambario studijaNaujausia Šildymo Sistema!Superinės miegamosios sofos!Skalbyklė su Džiovyklė! nereikes dziovinti rubų.Privalumai
+Naujai suremontuota studija
+Dideli langai
+Šalia autobusu stotele
+Per kelia esanti parduotuve
+Automobiliu stovejimo aikšteleNauji kokybiški baldai
+Nauja buitine technikaDziovykle/Skalbykle",,,,'NoneType' object has no attribute 'text',,9.7 µg/m3,22.3 µg/m3,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-senamiestyje-ausros-vartu-g-patogioje-miesto-vietoje-prie-ausros-vartu-4-1177417/,"Vilnius, Senamiestis, Aušros Vartų g., kambario nuoma",215.0,16,20 m²,215 €,1,2,2,1940,Mūrinis,Dujinis,Įrengtas,www.aruodas.lt/4-1177417,2022-09-15,2022-09-15,2022-10-30,39,4380/65 (iš viso/šiandien),54.673751,25.289932,4380/65,,,"Patogioje miesto vietoje - prie Aušros Vartų, Vilniaus geležinkelio ir autobusų stočių, šalia Halės turgaus nuomojami kambariai ilgalaikei nuomai.Kambario kaina - nuo 215 eurų iki 290 eurų (komunaliniai mokesčiai įskaičiuoti).Yra parkingas (nemokamas).",,,,'NoneType' object has no attribute 'text',,20 µg/m3,25.1 µg/m3,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-snipiskese-zalgirio-g-isnuomojamas-jaukus-kambarys-moteriai-arba-4-1180663/,"Vilnius, Šnipiškės, Žalgirio g., kambario nuoma",180.0,,14 m²,180 €,1,1,5,1979,Blokinis,Centrinis,Įrengtas,www.aruodas.lt/4-1180663,2022-09-27,2022-09-29,2022-10-27,16,2376/89 (iš viso/šiandien),54.70393,25.285769,2376/89,4 Klasė Vidutinė (4-5),'NoneType' object has no attribute 'find_all',"Išnuomojamas jaukus kambarys moteriai arba jaunai panelei, 3kambarių bute. Bus nuomojamas tik šis kambarys,kituose gyventų šeimininkė. Taigi nuomininkų daugiau nebūtų. Kambarys su baldais taip pat jungiasi su balkonu,tad būtų papildoma vieta naudojimui. Buto didelis pliusas lokacija. Iš šios vietos yra puikus susisiekimas į bet kurią Vilniaus pusę, kalvarijų ir žalgirio gatvės sankyžoje kursuoja daug autobusų ir troleibusų. Viskas ko reikia randasi šalia 100m spinduliu,prie pat viešojo transporto stotelės,dvi didelės maksimos parduotuvės,lidl,rimi,iki,kalvarijų turgus. Autobusu iki miesto centro 5min. Butas nuomojamas be tarpininkų,tiesiogiai iš šeimininko,tad tarpininkų pražome netrukdyti.","Tualetas ir vonia atskirai, Internetas, Kabelinė televizija","Skalbimo mašina, Su baldais",,,"Balkonas, Drabužinė",,,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-naujojoje-vilnioje-parko-g-isnuomojamas-tvarkingasjaukus-ir-siltas-4-1179903/,"Vilnius, Naujoji Vilnia, Parko g., 1 kambario buto nuoma",250.0,,19 m²,250 €,1,1,5,1987,Mūrinis,Centrinis,Įrengtas,www.aruodas.lt/4-1179903,2022-09-24,2022-10-08,2022-10-24,6,675/49 (iš viso/šiandien),54.685556,25.424926,675/49,,'NoneType' object has no attribute 'find_all',"Išnuomojamas tvarkingas,jaukus ir šiltas butas,maži komunaliniai mokesčiai,tvarkingi kaimynai.Netoliese maisto parduotuvės,turgelis,autobuso stotelės.Be tarpininkų,butas jau laisvas.",,,,'NoneType' object has no attribute 'text',,,,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-seskineje-gelvonu-g-nuomojamas-kambarys-be-tarpininku-4-592855/,"Vilnius, Šeškinė, Gelvonų g., kambario nuoma",199.0,38,26 m²,199 €,1,2,9,1982,Blokinis,Centrinis,Įrengtas,www.aruodas.lt/4-592855,2022-10-09,2022-10-09,2022-10-24,79,2171/388 (iš viso/šiandien),54.717562,25.257237,2171/388,,,"Nuomojamas KAMBARYS.Be tarpininkų nuomuojamas kambarys naujai suremontuotame, įrengtame keturių kambariu bute (Gelvonų g.38 (2 aukštas)). Jaukus butas miegamajame Vilniaus rajone. Namas tvarkingas, visuomet švari rakinama laiptinė, ramūs kaimynai. Kituose būto kambariuose jau gyvena dvi tvarkingos dirbančios merginos ir vienas dirbantis vaikinas.Idealiai tinka jaunam žmogui, norinčiam gyventi su visais šiuolaikiškais patogumais kambaryje su gyvenimą palengvinančia buitine technika.Patogus susisiekimas viešuoju transportu su visomis Vilniaus aukštojo mokslo įstaigomis. PVZ: iki MRU užtruksite 10-15 min. viešuoju transportu. Iki Saulėtekio ~25 min.IŠPLANAVIMAS:
+- 1 didelis vievietis kambarys su balkonu (užimtas)
+- 2 vienviečiai kambariai su balkonais (užimtas)
+- 1 vienvietis be balkono (LAISVAS); .
+- prieškambaris
+- vonia ir tualetas atskirai
+- drabužių skalbimo/džiovinimo patalpa
+- virtuvėĮRENGIMAS:
+-nauji baldai. Kambaryje yra didelė spinta, patogus rašomasis stalas su stalčiais, vieno metro pločio lova su kokybišku čiužiniu, didelis veidrodis.
+-nauja buitinė technika (skalbyklė, rūbų džiovyklė su lyginimo funkcija, orkaitė, mikrobangų krosnelė, didelis šaldytuvas, dulkių siurblys, virdulys)VIETA:
+-20 metrų nuo namo autobusų stotelė iš kurios važiuoja šie autobusai : 40, 53, 56, 75, 48. Nuo Akropolio stotelės važiuoja dar 7 ir 5G autobusas.
+-40 metrų iki „Maxima X“ parduotuvės
+-10 min. pėsčiomis iki prekybos ir pramogų centro AkropolisKAINOS:
+- Vienviečio kambario be balkono nuoma 210 €/mėn.
+- Nuomos mokestis mokomas mėnesį į priekį
+- Susitarus dėl nuomos, bus taikomas vienkartinis depozito mokestis– 350€. Depozitas grąžinamas, pasibaigus sutarčiai (išsikrausčius).Komunaliniai mokesčiai šaltuoju metu laiku svyruoja nuo 60 € iki 80€ per mėn. (priklausomai nuo vidutinės mėnesio temperatūros). PVZ vienviečio kambario komunaliniai mokesčiai su viskuo (šildymas, elektra, vanduo, internetas, namo administravimas) 2022m. žiema buvo:
+-Sausis - 78€
+-Vasaris - 73€
+-Kovas - 77€
+-Balandis -56€
+-Gegužė - 38€Mažiausias nuomos terminas iki 2023-07-31Nuomojama be tarpininkų. Nėra agentūros mokesčio.
+Jeigu skambinsite dėl apžiūros ir neatsiliepsiu, vadinasi dirbu ir perskambinsiu kai tik galėsiu.Nuomojamas nuo spalio 15d.","Tualetas ir vonia atskirai, Internetas","Skalbimo mašina, Su baldais, Šaldytuvas, Virtuvės komplektas, Viryklė, Vonia",Šarvuotos durys,'NoneType' object has no attribute 'text',Sandėliukas,14.6 µg/m3,21 µg/m3,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-aukstuosiuose-paneriuose-baltosios-vokes-g-kambariu-nuoma-kambariu-nuoma-darbininkams-4-968973/,"Vilnius, Aukštieji Paneriai, Baltosios Vokės g., kambario nuoma 3 kambarių bute",170.0,19,16 m²,170 €,3,2,2,2017,Mūrinis,Centrinis,Įrengtas,www.aruodas.lt/4-968973,2018-09-10,2022-10-07,,15,22403/52 (iš viso/šiandien),,,22403/52,,'NoneType' object has no attribute 'find_all',"Kambariu nuomaKambariu nuoma Darbininkams , studentams,
+nuo 170 EUR personai menuo.
+liko3- ju vietu kambaris.
+parai - 17eur +PVM vienam asmeniui.","Atskiras įėjimas, Uždaras kiemas, Kabelinė televizija, Internetas, Nauja kanalizacija, Nauja elektros instaliacija","Su baldais, Skalbimo mašina, Šaldytuvas, Virtuvės komplektas, Viryklė, Dušo kabina",Kodinė laiptinės spyna,'NoneType' object has no attribute 'text',"Sandėliukas, Vieta automobiliui",,,list index out of range,
+https://www.aruodas.lt/butu-nuoma-vilniuje-antakalnyje-p-vileisio-g-butas-antakalnyje-netoli-ziedo-vileisio-g-4-1183256/,"Vilnius, Antakalnis, P. Vileišio g., 1 kambario buto nuoma",270.0,10,45 m²,270 €,1,0,5,1984,Mūrinis,"Centrinis, elektra, kita",Įrengtas,www.aruodas.lt/4-1183256,2022-10-05,2022-10-05,2022-10-20,21,1311/126 (iš viso/šiandien),54.697743,25.306667,1311/126,6 Klasė Bloga (6-8),'NoneType' object has no attribute 'find_all',"Butas Antakalnyje (netoli žiedo, Vileišio g. 10). Visi 45 kv. m. yra viena erdvė kartu su virtuve. Butas pusrūsyje, langas (didelis) išeina į parkavimo aikštelę ir matai savo mašinos šoną:). Vonios kambarys ir wc kartu. Buitinė technika: šaldytuvas, el. viryklė. Po paskutinių nuomininkų kiek apleistas, reikėtų pačiam/patiems pasitvarkyti. Šildymo tėra tik tranzitiniai vamzdžiai tad sąskaitos nedidelės (būdavo apie 20-30 eur už šildymą)
+Ieškomi ilgalaikiai nuomininkai. Be tarpininkų. Kaina 270 €/mėn. plius komunaliniai (plius tiek pat užstatas); Butas jaulaisvas.Tel. 865024818",,,,,,,,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-naujamiestyje-birzelio-23-iosios-g-vilniaus-centrineje-dalyje-puikioje-4-1183188/,"Vilnius, Naujamiestis, Birželio 23-iosios g., kambario nuoma",170.0,9,20 m²,170 €,1,1,5,1980,Blokinis,Centrinis,Įrengtas,www.aruodas.lt/4-1183188,2022-10-05,2022-10-05,2022-10-20,8,765/111 (iš viso/šiandien),54.675072,25.262723,765/111,,'NoneType' object has no attribute 'find_all',"Vilniaus centrinėje dalyje (!), puikioje Naujamiesčio vietoje, nuomojamas kambarys 2-jų kambarių bute.Tvarkingas namas, butas (šarvo dūrys, plastikiniai langai).Kambarys: rakinamos kambario dūrys, domofonas; parkingas; baldai (viengulė lova, spinta, sekcija, lentynos, kėdė, rašomasis stalas).SVARBU: Vonia/Virtuvė - nauja santechnika, tačiau sienos nesutvarkytos (matosi nuotraukose)____
+Ieškomas nereiklus nuomininkas, galima statybininkams ar panašiai.",,,Šarvuotos durys,'NoneType' object has no attribute 'text',,,,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-balsiuose-rages-g-vilniuje-balsiu-mikrorajone-prie-santariskiu-4-1183112/,"Vilnius, Balsiai, Ragės g., 1 kambario buto nuoma",299.0,,29 m²,299 €,1,1,2,2007,Mūrinis,Kita,Įrengtas,www.aruodas.lt/4-1183112,2022-10-04,2022-10-08,2022-10-19,4,316/44 (iš viso/šiandien),54.782827,25.355323,316/44,,'NoneType' object has no attribute 'find_all',"VilniujeBalsių mikrorajone prie Santariškių ir Žaliųjų ežerųišnuomojamas1 kambario butas1 asmeniui. Butas su baldais ir buitinetechnika, šiuolaikiškaisuremontuotas, graži aplinka , mažikomunaliniai mokesčiai. Labaigeras susisiekimas su miesto centru.netoli autobusų stotelė. Nuoma gali būti ilgalaikė ir be tarpininkų. Nuomos kaina 299 eurų. Teirautis tel. +370 652 94955 jums patogiu laiku,","Atskiras įėjimas, Nauja kanalizacija, Internetas","Skalbimo mašina, Su baldais, Šaldytuvas, Virtuvės komplektas, Viryklė, Plastikiniai vamzdžiai, Dušo kabina",,'NoneType' object has no attribute 'text',"Rūsys, Vieta automobiliui",,,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-a-jaksto-g-nakvynes-namuose-vilniaus-4-1173671/,"Vilnius, A. Jakšto g., kambario nuoma 5 kambarių bute",160.0,,12 m²,160 €,5,1,5,1966,Mūrinis,Centrinis,Įrengtas,www.aruodas.lt/4-1173671,2022-08-24,2022-09-29,,8,2989/26 (iš viso/šiandien),54.689749,25.275996,2989/26,,'NoneType' object has no attribute 'find_all',"Nakvynės namuose Vilniaus Жилье в центре ВильнюсаIšnuomojami kambariai Vilniaus centre (Jakšto g.).
+1-2-3-4 vietų apgyvendinimas.
+Pateikiamos sąskaitos faktūros.
+Kaina nuo 420 iki 500 eurų už kambarį.
+Galimas apgyvendinimas ant lovų - nuo 160 eurų už 1 lovą mėnesiui.
+Skambinkite arba rašykite į viber arba whatsapp.Сдаются в аренду номера в центре Вильнюса (ул. Якшто).
+1-2-3-4-местное размещение.
+Предоставляются фактуры.
+Цена от 420 до 500 евро за комнату.
+Возможно размещение по кроватям - от 160 евро за 1 кровать в месяц.
+Звоните или пишите на вайбер или ватсап.
+","Aukštos lubos, Atskiras įėjimas, Uždaras kiemas, Internetas, Nauja kanalizacija, , ,Допомога українцям, , Lankstesnės nuomos sąlygos ukrainiečiams (dėl nuomos laikotarpio, kainos ar kt.). Daugiau informacijos – skelbime nurodytais kontaktais. / Більш гнучкі умови оренди для українців (за рахунок терміну оренди, цін тощо). Більше інформації за контактами, вказаними в оголошенні.","Su baldais, Plastikiniai vamzdžiai, Kondicionierius, Skalbimo mašina, Šaldytuvas, Virtuvės komplektas, Viryklė, Dušo kabina","Šarvuotos durys, Kodinė laiptinės spyna, Vaizdo kameros",'NoneType' object has no attribute 'text',"Sandėliukas, Vieta automobiliui",,,,A
+https://www.aruodas.lt/butu-nuoma-vilniuje-senamiestyje-sv-stepono-g-labai-jaukus-2-kambariu-butas-su-lauko-terasa-4-1182120/,"Vilnius, Senamiestis, Šv. Stepono g., 2 kambarių buto nuoma",300.0,5,44 m²,300 €,2,1,3,2003,Mūrinis,Dujinis,Įrengtas,www.aruodas.lt/4-1182120,2022-10-02,2022-10-04,2022-10-17,21,1625/175 (iš viso/šiandien),54.674622,25.281767,1625/175,,'NoneType' object has no attribute 'find_all',"Labai jaukus 2 kambarių butas su lauko terasa senamiestyje!Nebrangus buto išlaikymas! Šildotės ir karštą vandenį ruošiate kada Jums reikia dujinio katilo pagalba! Pats butas yra sandarus, pakeisti langai, dvejos durys!Šaltas vanduo ir elektra taip pat pagal suvartojimą!
+Bendros paslaugos apie 15€/mėn!Įėjimas į butą iš dviejų namo pusių: Šv. Stepono g. Ir Raugyklos gatvės! Parkingas taip pat iš dviejų pusių! Deklaravus gyvenamąją vietą už parkingą metams mokama viena kartą- 14 €!Visi baldai ir visa buitinė technika įskaitant indaplovę ir skalbyklę su džiovykle!Ekonomiškas dujinis šildymas ir karšto vansens ruošimas.Aukštos buto lubos - 3 m!Draugiškas savininkas.Užstatas - 1 mėn dydžio!
+","Atskiras įėjimas, Aukštos lubos, Nauja kanalizacija, Nauja elektros instaliacija, Internetas, Kabelinė televizija, Virtuvė sujungta su kambariu, Galima deklaruoti gyvenamąją vietą","Skalbimo mašina, Su baldais, Šaldytuvas, Virtuvės komplektas, Viryklė, Indaplovė, Dušo kabina",Kodinė laiptinės spyna,'NoneType' object has no attribute 'text',"Terasa, Vieta automobiliui, Drabužinė",,,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-senamiestyje-gelezinkelio-g-pigus-apgyvendinimas-studentams-ir-4-1136544/,"Vilnius, Senamiestis, Geležinkelio g., kambario nuoma 9 kambarių bute",300.0,6,30 m²,300 €,9,4,5,1984,Mūrinis,Centrinis,Įrengtas,www.aruodas.lt/4-1136544,2022-03-12,2022-09-26,,74,24642/109 (iš viso/šiandien),54.669843,25.282991,24642/109,,,"Pigus apgyvendinimas studentams ir darbuotojamsStrategiškai labai patogioje vietoje, visai šalia Vilniaus autobusų ir geležinkelio stočių bei senamiesčio esančiame Vilniaus stoties hostelyje tikrai patogu ir nebrangu apsistoti, ypač ilgesniam laikui, nes tokiu atveju taikomos nuolaidos.Galimybė vienoje vietoje apgyvendinti iš kitur į Vilnių atvykusius kolektyvo darbuotojus.Jauki, švari aplinka, paslaugus personalas. Puikus susisiekimas su miesto centru ir kitais miestais. Viešojo maitinimo įstaigos, maisto prekų parduotuvės, kavinės ir kitos laisvalaikio leidimo vietos - visa tai visai šalia ir lengvai per kelias minutes pasiekiama pėsčiomis!Puikiai tiks tiek ilgalaikiam gyvenimui, tiek trumpos viešnagės sostinėje metu.Apgyvendinimo kainos bendrame kambaryje už vieną lovą:
+- atvykimo diena 16€,
+- kita diena 12€,
+- savaitė 80€,
+- mėnuo 300€.Norėdami pasiteirauti dėl galimybės rezervuoti nakvynę bei kitais rūpimais klausimais skambinkite mums telefonu +37069056555 (visą parą).В Вильнюсе, в удобном месте города, рядом с автовокзалом и ЖД вокзалом находится хостел ""Stoties hostelis"", где можно удобно и недорого остановитьса жителям или гостям города.Особено удобно здесь остоновиться на более длительное время, так как тогда мы предостовляем значительные скидки. Есть возможность удобно в одном месте разместить сотрудниковвашего колектива, приехавших из других городов или стран.Уютные, чистые помещения и добрыий, отзывчевый персонал также владеет русским языком. Удобная гео локация позволит легко добратся до любой точки Вильнуса и других городов Литвы и заграницы.Магазины, кафе, места проведения досуга и другие развлечения в городе находятся рядом, легко доступны пешком.Это прекрасное решение и для одной ночи, и для долгосрочного проживания.
+Цены размещения в общей комнате за одну кровать:
+- день прибытия 16€,
+- следующий день 12€,
+- неделя 80€,
+- месяц 300€.Для размещения или более подробной информации звоните по номеру +37069056555.
+Ждем вас круглосуточно!",,,,'NoneType' object has no attribute 'text',,15 µg/m3,24.7 µg/m3,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-pilaiteje-vyduno-g-isnuomojamas-nedidelis-1kambario-butas-4-1172871/,"Vilnius, Pilaitė, Vydūno g., 1 kambario buto nuoma",250.0,,17 m²,250 €,1,1,9,1994,Blokinis,Centrinis,Įrengtas,www.aruodas.lt/4-1172871,2022-09-01,2022-09-20,2022-10-16,33,4175/15 (iš viso/šiandien),54.707298,25.179626,4175/15,,'NoneType' object has no attribute 'find_all',"Išnuomojamas nedidelis 1kambario butas centrinėje Pilaitės gatvėje.Ramus kaiminai,puikus susisiekimas su kitais miesto mikrorajonais,iki centro7km.Salia keletą prekybos centru,kavinių,poliklinika,sporto klubų,netoliese keli ežerai,miskelis",,,,'NoneType' object has no attribute 'text',,,,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-senamiestyje-vingriu-g-rooms-for-students-in-old-town-vingriu-st-4-977965/,"Vilnius, Senamiestis, Vingrių g., kambario nuoma",290.0,3A,15 m²,290 €,1,2,2,1940,Mūrinis,Elektra,Įrengtas,www.aruodas.lt/4-977965,2022-06-05,2022-10-01,2022-10-13,492,105630/57 (iš viso/šiandien),54.6796,25.275807,105630/57,,,"ROOMS FOR STUDENTS
+IN OLD TOWN, VINGRIU ST.
+KAMBARIAI STUDENTAMS
+SENAMIESTYJE, VINGRIU G.1 BUTAS (4 KAMBARIŲ) / 1 FLAT (4 ROOMS):
+NR.01-09m2(2a./fl.) 280eur Rented
+NR.02-14m2(2a./fl.) 320eur Rented
+NR.03-09m2(2a./fl.) 280eur Rented
+NR.04-18m2(2a./fl.) 320eur Rented
+With shared kitchen and bathroom
+2 BUTAS (3 KAMBARIŲ) / 3 FLAT (3 ROOMS):
+NR.05-10m2(2a./fl.) 300eur Rented
+NR.06-11m2(2a./fl.) 300eur Rented
+NR.07-16m2(2a./fl.) 320eur Rented
+With shared kitchen and bathroom
+3 BUTAS (3 KAMBARIŲ) / 3 FLAT (3 ROOMS):
+NR.08-10m2(1a./fl.) 270eur Rented
+NR.09-09m2(1a./fl.) 270eur Rented
+NR.10-07m2(1a./fl.) 250eur Rented
+With shared kitchen and bathroom
+4 BUTAS (1 KAMBARIO) / 4 FLAT (1 ROOM):
+NR.11-10m2(1a./fl.) 340EUR Rented
+With private kitchen and bathroom
+5 BUTAS (1 KAMBARIO) / 5 FLAT (1 ROOM):
+NR.12-17m2(1a./fl.) 250eur Rented
+With shared kitchen and bathroom
+6 BUTAS (1 KAMBARIO) / 6 FLAT (1 ROOM):
+NR.13-23m2(1a./fl.) 450eur FROM 11.01
+With private kitchen and bathroomPapildomai paslaugos 50 EUR per mėnesį /
+Plus utilities 50 EUR per month /
+Nuomos sutartys terminuotos - vienerių metų
+Contracts are terminated - one year long
+Depozitas 2 mėn nuomos kainos dydžio /
+Deposit 2 month rent price size /BENDROS ERDVĖS - VIRTUVĖ, VALGOMASIS, VONIA IR WC; KAMBARIAI SU BŪTINAIS BALDAIS; VIRTUVĖJE - BUITINĖ TECHNIKA, VIETA MAISTO GAMINIMUI, VALGOMASIS; SKALBYKLĖ, DŽIOVYKLĖ, ŠALDYTUVAI, ORKAITĖ IR KT. ĮRANGA; INTERNETAS; LAIPTINĖJE VIETA STATYTI DVIRAČIAMS /
+COMMON AREAS - KITCHEN, DINING ROOM, BATHROOM AND WC; ROOMS WITH NECESSARY FURNITURE; IN THE KITCHEN - HOUSEHOLD APPLIANCES, A PLACE FOR COOKING, A DINING ROOM. WASHING MACHINE, DRYER, REFRIGERATOR, OVEN, OTHER EQUIPMENT; INTERNET; BICYCLES CAN BE PARKED IN THE STAIRWELL /GRETA „MO“ MUZIEJUS, VOKIEČIŲ G., KAVINĖS IR BARAI. UNIVERSITETAI, KOLEGIJOS. PARDUOTUVĖS. VIEŠOJO TRANSPORTO STOTELĖS, DALIJIMOSI TRANSPORTO PRIEMONĖMIS VIETOS /
+NEXT TO THE MO MUSEUM, VOKIECIU STR., CAFES AND BARS. UNIVERSITIES, COLLEGES. STORES. PUBLIC TRANSPORT STOPS, VEHICLE SHARING POINTS /BENDRA INFORMACIJA / GENERAL INFORMATION:
+Kamb. / Rooms - nuo 8 iki 18m2 / from 8 to 18m2KITA INFORMACIJA / OTHER INFORMATION:
+Nuomininkams nuo 19 iki 29 metų amžiaus
+Paslaugos - šildymas, šaltas ir karštas vanduo, elektra, internetas, šiukšlių išvežimas, namo administravimas, draudimas
+Tualetas ir vonia atskirai
+Uždaras kiemas
+Bendrose patalpose yra šaldytuvai, skalbimo mašina, džiovyklė, viryklė, orkaitė, kita įranga
+Rakinama laiptinė /
+For tenants from 19 to 29 years old /BE TARPININKŲ
++370-659-45810.","Tualetas ir vonia atskirai, Internetas, Virtuvė sujungta su kambariu, Buto dalis","Skalbimo mašina, Su baldais, Šaldytuvas, Virtuvės komplektas, Viryklė, Vonia",,'NoneType' object has no attribute 'text',,14.8 µg/m3,22.6 µg/m3,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-zveryne-birutes-g-isnuomojami-naujai-irengti-kambariai-zveryne-4-1179349/,"Vilnius, Žvėrynas, Birutės g., 1 kambario buto nuoma",250.0,56,18 m²,250 €,1,1,6,1980,Mūrinis,Centrinis,Įrengtas,www.aruodas.lt/4-1179349,2022-09-22,2022-10-07,,15,3055/105 (iš viso/šiandien),54.696335,25.241314,3055/105,5 Klasė Vidutinė (4-5),,"Išnuomojami naujai įrengti kambariai Žvėryne, Birutės g. 56, Vilnius.
+Puiki vieta, visiškai šalia Boriso Nemcovo skvero.Virtuvė, dušai, WC bendri aukštui. Kambariuose yra kondicionieriai.Nuomos terminas - 1 metaiGyvenant kambaryje 1 asmeniui- kaina 250 eur/mėn + komunaliniai mokesčiai.
+Gyvenant kambaryje 2 asmenims - kaina 300 eur/mėn + komunaliniai mokesčiai.
+Gyvenant kambaryje 3 asmeniui- kaina 350 eur/mėn + komunaliniai mokesčiai.",,"Skalbimo mašina, Su baldais, Šaldytuvas, Virtuvės komplektas, Viryklė, Dušo kabina",Vaizdo kameros,,,11.3 µg/m3,20.1 µg/m3,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-paneriuose-v-a-graiciuno-g-nuomojamas-mazas-taciau-sviesus-bei-jaukus-4-1137404/,"Vilnius, Paneriai, V. A. Graičiūno g., 1 kambario buto nuoma",220.0,10,10 m²,220 €,1,2,5,"1985 statyba, 2020 renovacija",Mūrinis,Elektra,Įrengtas,www.aruodas.lt/4-1137404,2022-09-23,2022-10-01,,61,2533/92 (iš viso/šiandien),54.621787,25.144173,2533/92,,'NoneType' object has no attribute 'find_all',"NUOMOJAMAS MAŽAS TAČIAU ŠVIESUS BEI JAUKUS, 10 KV.M, BUTAS V.A. GRAIČIŪNO G. 10• 2020m. RENOVUOTAS NAMAS
+• VISI PATOGUMAI BUTE
+• ATSKIRAS BUTAS ( NE BENDRABUČIO TIPO ! )
+• ŠILDYMO SEZONO METU KOMPENSUOJAME DALĮ ELEKTROS IŠLAIDŲ.BENDRA INFORMACIJA:
+• Adresas: V.A. Graičiūno g. 10
+• Šildymas: Elektra
+• Vandentiekis ir kanalizacija: miestoĮRENGIMAS:
+• Sienos: dažytos
+• Grindys: linoliaumas
+• Langai: plastikiniai
+• Durys: medžio laminato
+• Yra visi reikalingiausi baldai bei buitinė technikaVIETA:
+• Namo kieme nemokamos parkavimo vietos.
+• Patogus susisiekimas, prie pat namo autobusų stotelė.
+• Arti kelios kavinės, valgyklos, maisto prekių parduotuvė.Nuomos mokestis yra 55 eurai už savaitę (220eur/4 savaitėms), mokama kartą per mėnesį plius komunalinės paslaugos.
+Įsikėlimui bei sutarties pasirašymui iš viso reiktų 610 Eur (į šią sumą įeina užstatas/depozitas 2mėn mėn 440eur., ir VIENKARTINIS TARPININKAVIMO MOKESTIS 170eur.), o nuomos mokestis mokamas po gyvento laikotarpio.ATSIRADUS NUOMININKAMS, SKELBIMAS BUS PAŠALINTAS.",,,,'NoneType' object has no attribute 'text',,,,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-naujojoje-vilnioje-dumu-g-nuomojamas-naujai-irengtas-vieno-kambario-4-1184180/,"Vilnius, Naujoji Vilnia, Dūmų g., 1 kambario buto nuoma",250.0,3,18 m²,250 €,1,3,3,1981,Mūrinis,Elektra,Įrengtas,www.aruodas.lt/4-1184180,2022-10-08,2022-10-08,,4,248/183 (iš viso/šiandien),54.692644,25.399208,248/183,,'NoneType' object has no attribute 'find_all',"Nuomojamas naujai įrengtas vieno kambario loftas-studija N.Vilnioje., Dūmų g. Loftas kokybiškai naujai suremontuotas. Nauja elektros instaliacija bei kanalizacija. Geras susisiekimas su pagrindiniai Vilniaus miesto rajonais, tik 10 min. iki senamiesčio. Prie pastato, apie 30 m., autobuso stotelė.
+Yra visi butini baldai bei buitinė technika.BENDRA INFORMACIJA:- Lofto plotas - 19 kv.m.;
+- Kambarių skaičius – 1;
+- Aukštas – 3/3;- Plastikiniai langai;
+- Sienos dažytos;
+- Svetainė su virtuve;
+- Karštas vanduo šildomas boileriu;- Miesto komunikacijos.Loftas šiltas ir šviesus. Individuali elektros, vandens, šildymo apskaita. Erdvi automobilių aikštelė, visada rasite vietą savo automobiliui.Išvystyta infrastruktūra: traukinių stotis, PC „Iki“, „Maxima“, „Lidl“.
+Jei loftas tiks bus taikomas vienkartinis agenturos mokestis.PARDUODATE? Skambinkite – nemokamai konsultuojame, nemokamai nustatome Jūsų objekto rinkos kainą","Nauja kanalizacija, Nauja elektros instaliacija, Virtuvė sujungta su kambariu, Galima su gyvūnais","Skalbimo mašina, Su baldais, Šaldytuvas, Virtuvės komplektas, Dušo kabina","Šarvuotos durys, Kodinė laiptinės spyna",'NoneType' object has no attribute 'text',,,,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-justiniskese-taikos-g-nuomojamas-vienas-kambarys-justiniskese-4-1183966/,"Vilnius, Justiniškės, Taikos g., kambario nuoma",180.0,197,15 m²,180 €,1,3,5,1986,Blokinis,Centrinis,Įrengtas,www.aruodas.lt/4-1183966,2022-10-07,2022-10-09,,5,361/127 (iš viso/šiandien),54.712603,25.214108,361/127,6 Klasė Bloga (6-8),'NoneType' object has no attribute 'find_all',"Nuomojamas vienas kambarys Justiniškėse.Bute gyvena šeimyninkė, pageidaujama nuomininkė - mergina.
+Nuomojomas su visais baldais ir buitine technika.
+Mėnesinis mokestis yra 180 Eur/ mėn.(fiksuotas su mokesčiais)
+– Bendras plotas – 15 kv/m;
+– Šviesus kambarys;
+– Balkonas;
+– Baldai ir buitinė technika;
+– Rami bendruomeniška kaimynystė.Kambarys nuomojamas nerūkančiam ir be žalingų įpročių nuomininkui.
+Depozito nėra.
+Bus taikomas vienkartinis tarpininkavimo mokestis.",,,,,,,,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-zveryne-birutes-g-isnuomojami-naujai-irengti-kambariai-zveryne-4-1183850/,"Vilnius, Žvėrynas, Birutės g., 1 kambario buto nuoma",250.0,56,18 m²,250 €,1,1,6,1980,Mūrinis,Centrinis,Įrengtas,www.aruodas.lt/4-1183850,2022-10-07,2022-10-07,,4,185/25 (iš viso/šiandien),54.696335,25.241314,185/25,5 Klasė Vidutinė (4-5),,"Išnuomojami naujai įrengti kambariai Žvėryne, Birutės g. 56, Vilnius.
+Puiki vieta, visiškai šalia Boriso Nemcovo skvero.Virtuvė, dušai, WC bendri aukštui. Kambariuose yra kondicionieriai.Nuomos terminas - 1 metaiGyvenant kambaryje 1 asmeniui- kaina 250 eur/mėn + komunaliniai mokesčiai.
+Gyvenant kambaryje 2 asmenims - kaina 300 eur/mėn + komunaliniai mokesčiai.
+Gyvenant kambaryje 3 asmeniui- kaina 350 eur/mėn + komunaliniai mokesčiai.",,"Skalbimo mašina, Su baldais",,,,11.3 µg/m3,20.1 µg/m3,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-zveryne-birutes-g-isnuomojami-naujai-irengti-kambariai-zveryne-4-1176913/,"Vilnius, Žvėrynas, Birutės g., 1 kambario buto nuoma",250.0,56,18 m²,250 €,1,1,6,1980,Mūrinis,Centrinis,Įrengtas,www.aruodas.lt/4-1176913,2022-09-14,2022-10-07,,13,1963/12 (iš viso/šiandien),54.696335,25.241314,1963/12,5 Klasė Vidutinė (4-5),,"Išnuomojami naujai įrengti kambariai Žvėryne, Birutės g. 56, Vilnius.
+Puiki vieta, visiškai šalia Boriso Nemcovo skvero.Virtuvė, dušai, WC bendri aukštui. Kambariuose yra kondicionieriai.Nuomos terminas - 1 metaiGyvenant kambaryje 1 asmeniui- kaina 250 eur/mėn + komunaliniai mokesčiai.
+Gyvenant kambaryje 2 asmenims - kaina 300 eur/mėn + komunaliniai mokesčiai.
+Gyvenant kambaryje 3 asmeniui- kaina 350 eur/mėn + komunaliniai mokesčiai.",Nauja kanalizacija,"Skalbimo mašina, Su baldais, Šaldytuvas, Virtuvės komplektas, Viryklė, Dušo kabina",Vaizdo kameros,,,11.3 µg/m3,20.1 µg/m3,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-antakalnyje-keramiku-g-sviesus-siltas-ir-erdvus-26kvm-butas-nera-4-1183762/,"Vilnius, Antakalnis, Keramikų g., 1 kambario buto nuoma",300.0,1,26 m²,300 €,1,4,4,1976,Mūrinis,Centrinis,Įrengtas,www.aruodas.lt/4-1183762,2022-10-06,2022-10-06,,14,417/64 (iš viso/šiandien),54.729638,25.373948,417/64,5 Klasė Vidutinė (4-5),'NoneType' object has no attribute 'find_all',"Šviesus, šiltas ir erdvus 26kv.m butas;NĖRA JOKIO AGENTŪROS MOKESČIO;
+Ramybės ir žalumos apsuptyje;
+4 aukštas (nekampinis);
+Visi baldai;
+Buitinė technika;Puikus susisiekimas visomis Vilniaus kryptimis;
+Šalia parduotuvės, švietimo įstaigos, parkas, viešojo transporto stotelės;Juozas Gintila | NNTB
+tel. 868884884,
+juozas@nntb.lt","Internetas, Kabelinė televizija","Skalbimo mašina, Su baldais, Šaldytuvas, Vonia",Kodinė laiptinės spyna,,Vieta automobiliui,,,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-zirmunuose-kareiviu-g-nuomojamas-vieno-kambario-butas-kareiviu-g-4-1174763/,"Vilnius, Žirmūnai, Kareivių g., 1 kambario buto nuoma",280.0,7A,18 m²,280 €,1,1,5,1981,Mūrinis,Elektra,Įrengtas,www.aruodas.lt/4-1174763,2022-10-06,2022-10-06,,24,373/46 (iš viso/šiandien),54.717418,25.296605,373/46,3 Klasė Gera (1-3),'NoneType' object has no attribute 'find_all',"Nuomojamas vieno kambario butas Kareivių g. 7A.
+Bute yra visi reikalingi baldai ir buitinė technika.
+Gerai išvystyta infrastruktūra, šalia prekybos centrai, visuomeninio transporto stotelės.
+Butas nuomojamas be gyvūnų.
+Agentūros mokestis 200 eurų.
+Apžiūrėti galima jau dabar.
+Platesnė informacija telefonu.","Aukštos lubos, Internetas, Virtuvė sujungta su kambariu","Skalbimo mašina, Su baldais, Šaldytuvas, Virtuvės komplektas, Viryklė","Šarvuotos durys, Kodinė laiptinės spyna",,Vieta automobiliui,,,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-naujojoje-vilnioje-pramones-g-nuomojamas-irengtas-vieno-kambario-loftas-4-1183532/,"Vilnius, Naujoji Vilnia, Pramonės g., 1 kambario buto nuoma",260.0,,26 m²,260 €,1,5,5,1981,Mūrinis,Elektra,Įrengtas,www.aruodas.lt/4-1183532,2022-10-06,2022-10-06,,2,317/53 (iš viso/šiandien),54.694177,25.442351,317/53,,,"Nuomojamas įrengtas vieno kambario loftas-studija N.Vilnioje., Pramones g. Bute yra visi butini baldai (sofa-lova, virtuves komplektas) bei buitinė technika (skalbimo mašina, šaldytuvas, viryklė). Nauja elektros instaliacija bei kanalizacija. Geras susisiekimas su pagrindiniai Vilniaus miesto rajonais, tik 10 min. iki senamiesčio. Prie pastato, apie 10 m., autobuso stotelė, parduotuvė.
+Yra visi butini baldai bei buitinė technika.BENDRA INFORMACIJA:- Lofto plotas - 26 kv.m.;
+- Kambarių skaičius – 1;
+- Aukštas – 5/5;- Plastikiniai langai;
+- Sienos dažytos;
+- Svetainė su virtuve;
+- Karštas vanduo šildomas boileriu;- Miesto komunikacijos.Loftas šiltas ir šviesus. Individuali elektros, vandens, šildymo apskaita. Erdvi automobilių aikštelė, visada rasite vietą savo automobiliui.Išvystyta infrastruktūra: traukinių stotis, PC „Iki“, „Maxima“, „Lidl“
+Jei loftas tiks bus taikomas vienkartinis agenturos mokestis.PARDUODATE? Skambinkite – nemokamai konsultuojame, nemokamai nustatome Jūsų objekto rinkos kainą","Nauja kanalizacija, Nauja elektros instaliacija, Virtuvė sujungta su kambariu, Galima su gyvūnais","Skalbimo mašina, Su baldais, Šaldytuvas, Virtuvės komplektas, Viryklė, Plastikiniai vamzdžiai, Dušo kabina","Šarvuotos durys, Kodinė laiptinės spyna",'NoneType' object has no attribute 'text',,9.7 µg/m3,22.3 µg/m3,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-fabijoniskese-p-zadeikos-g-nuomojamas-labai-tvarkingas-1-kambarys-3-4-1183298/,"Vilnius, Fabijoniškės, P. Žadeikos g., kambario nuoma",230.0,,13 m²,230 €,1,1,10,1990,Monolitinis,Centrinis,Įrengtas,www.aruodas.lt/4-1183298,2022-10-05,2022-10-05,,4,701/78 (iš viso/šiandien),54.731225,25.24155,701/78,,'NoneType' object has no attribute 'find_all',"NUOMOJAMAS LABAI TVARKINGAS 1 KAMBARYS 3 KAMBARIŲ BUTE!• We are looking for a woman or a girl to rent a room •
+• Ищем женщину или девушку для аренды комнаты •Fabijoniškėse, Žadeikos g., išnuomojamas labai tvarkingas ~13 kv.m., kambarys trijų kambarių bute.
+Kambarys labai jaukus, šviesus ir šiltas, išnuomojamas su erdvia spinta.Šalia viešojo transporto stotelė.
+Geras susisiekimas su visais miesto rajonais.******************************************************************
+Skambinti galite Jums patogiu laiku. Nepavykus prisiskambinti, rašykite sms - perskambinsiu.
+******************************************************************
+Jei butas tiks, bus taikomas vienkartinis agentūros mokestis.
+Nekilnojamo turto agentūra OPPA.
+www.oppa.lt","Tualetas ir vonia atskirai, Nauja elektros instaliacija, Kabelinė televizija","Su baldais, Šaldytuvas, Virtuvės komplektas, Viryklė, Dušo kabina","Šarvuotos durys, Kodinė laiptinės spyna",'NoneType' object has no attribute 'text',"Balkonas, Vieta automobiliui, Drabužinė",,,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-jeruzaleje-kalvariju-g-isnuomojamas-tvarkingas-ir-jaukus-1-kambario-4-1183014/,"Vilnius, Jeruzalė, Kalvarijų g., 1 kambario buto nuoma",290.0,,18 m²,290 €,1,5,12,1984,Kita,Centrinis,Įrengtas,www.aruodas.lt/4-1183014,2022-10-04,2022-10-05,,18,1025/89 (iš viso/šiandien),54.722953,25.284766,1025/89,,'NoneType' object has no attribute 'find_all',"IŠNUOMOJAMAS TVARKINGAS IR JAUKUS 1 KAMBARIO BUTAS JERUZALĖJE, KALVARIJŲ GATVĖJE.Išnuomojamo buto privalumai:-Strategiškai patogi vieta gyventi, šalia daug žalių erdvių;
+-nuomojamas su baldais ir buitine technika;
+-parkavimas bendrame kieme;
+-rami ir draugiška kaimynystė;
+-aplink rasite prekybos centrus, kavines bei kitas patogiam gyvenimui reikalingas miesto vietas.Objektui taikomas vienkartinis tarpininkavimo mokestis.Dėl apžiūros skambinkite Jums patogiu metu +37061884502. Rašykite igerusinfo@gmail.comIGERUS - nekilnojamojo turto ekspertų paslaugos bei konsultacijos visoje Lietuvoje.","Nauja kanalizacija, Virtuvė sujungta su kambariu","Skalbimo mašina, Su baldais, Šaldytuvas, Virtuvės komplektas, Viryklė, Dušo kabina",Šarvuotos durys,'NoneType' object has no attribute 'text',Drabužinė,,,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-naujininkuose-tyzenhauzu-g-nuomojamas-1-kambario-butas-patogioje-vietoje-4-1183000/,"Vilnius, Naujininkai, Tyzenhauzų g., 1 kambario buto nuoma",300.0,9,33 m²,300 €,1,9,13,1983,Mūrinis,Centrinis,Įrengtas,www.aruodas.lt/4-1183000,2022-10-04,2022-10-04,,5,761/82 (iš viso/šiandien),54.668967,25.289426,761/82,4 Klasė Vidutinė (4-5),'NoneType' object has no attribute 'find_all',"NUOMOJAMAS 1 KAMBARIO BUTAS PATOGIOJE VIETOJE Tyzenhauzų g. SU VISAIS BALDAIS IR VISA BUITINE TECHNIKA,----SKELBIMO APRAŠYME ESANTIS ID:8399----BUTAS JAU LAISVASPAGRINDINIAI PRIVALUMAI:
++ Taip pat įskaičiuoti baldai ir buitinė technika;+ Vieninga ir tvarkinga bendruomenė.
++ Geras susisiekimas su visu VilniumiVonios kambariu naudojasi 1 kaimynaiNUOMOJAMAS BUTAS VILNIUJE
+- Šviesaus 1 kambario nuoma Tyzenhauzų g.
+- 9 aukštas iš 13,- 33 kv.m.,- 1983m.- Mūrinis, .NUOMOJAMO BUTO ĮRENGIMAS- plastikiniai langai- laminatas- laiptinės šarvo durys,- VISA BUITINĖ TECHNIKA: Šaldytuvas, skalbimo mašina, gartraukis, elektrinė kaitlentė.LAIPTINĖ
+- Tvarkinga laiptinė
+- Metalinės, kodinės laiptinės durysPARKINGAS
+- Bendra aikštelė prie pat namo.---
+KAINA: 300 EUR
+Vienkartinis tarpininkavimo mokestis (jei butas tiks).------------
+proreal.lt
+----------------BUTO ID:8399----",,,,,,,,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-karoliniskese-dariaus-gerbutaviciaus-g-nuomojamas-1-kambarys-2-kambariu-bute-d-4-1182988/,"Vilnius, Karoliniškės, Dariaus Gerbutavičiaus g., kambario nuoma",150.0,10,14 m²,150 €,1,3,5,1975,Mūrinis,Centrinis,Įrengtas,www.aruodas.lt/4-1182988,2022-10-04,2022-10-04,,2,473/65 (iš viso/šiandien),54.692856,25.210373,473/65,,'NoneType' object has no attribute 'find_all',"Nuomojamas 1 kambarys 2 kambarių bute D.Gerbutavičiaus g. , Karoliniškėse, Vilniuje.Išnuomojamas kambarys 2 kambarių bute. Kambarys yra su plastikiniais langais. Kambaryje yra baldai, lova, bute taip pat skalbimo mašina, šaldytuvas. Kitame kambaryje gyvena maloni namų šeimininkė. Nuomotoja pageidauja nuomininkės tvarkingos dirbančios PANELĖS. Už šildyma moketi nereikia.
+Namas yra toliau nuo gatvės.
+Šalia yra viešojo transporto stotelės, iš kurių lengvai nusigausite į bet kurią miesto dalį.
+*************************************************************
+Taikomas vienkartinis tarpininkavimo mokestis.
+*************************************************************
+Nekilnojamojo turto agentūra EUReNT
+www.eurent.lt",Tualetas ir vonia atskirai,"Skalbimo mašina, Su baldais, Šaldytuvas, Viryklė, Vonia","Šarvuotos durys, Kodinė laiptinės spyna",'NoneType' object has no attribute 'text',,,,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-pasilaiciuose-gabijos-g-pasilaiciuose-gabijos-g-nuomojamas-1-o-4-1182920/,"Vilnius, Pašilaičiai, Gabijos g., 1 kambario buto nuoma",290.0,77,"35,41 m²",290 €,1,1,5,1987,Blokinis,Centrinis,Kita,www.aruodas.lt/4-1182920,2022-10-04,2022-10-04,,13,514/78 (iš viso/šiandien),54.734384,25.227397,514/78,6 Klasė Bloga (6-8),'NoneType' object has no attribute 'find_all',"PAŠILAIČIUOSE, GABIJOS G., NUOMOJAMAS 1-O KAMBARIO BUTAS SU BALKONU. PIRMAS AUKŠTAS, RAMŪS KAIMYNAI. PAKANKAMAI ERDVI PARKAVIMOSI AIKŠTELĖ PRIE NAMO IR APLINK DAUG PARKAVIMOSI VIETŲ. NETOLI VISUOMENINIO TRANSPORTO STOTELĖS, MOKYKLOS, DARŽELIAI, PREKYBOS CENTRAI. 1/5 AUKŠTAS, BUTAS NE KAMPINIS. BUTAS BUS LAISVAS NUO LAPKRIČIO MĖN.BENDRA INFORMACIJA- Buto bendras plotas – 35.41 kv.m;- Statybos metai - 1987 m.;- Namo tipas – blokinis;- Bute yra balkonas ir jam priklauso rūsys;
+- Kambarių skaičius – 1;- Aukštas – 1/5;- Butas ne kampinis.BUTO IŠPLANAVIMAS- Virtuvė – 8.42 kv.m.;- Kambarys – 17.86 kv.m.;- Koridorius – 5.71 kv.m.;- Tualetas – 0.87 kv.m;
+- Vonios kambarys – 2.55 kv.m.BUTO APDAILA- Langai – plastikiniai su stiklo paketu;- Įėjimo durys – šarvo;
+- Sienos kambaryje – ištapetuotos;- Grindys kambaryje, virtuvėje ir koridoriuje - linoleumas;- Sienos virtuvėje – plytelės ir tapetai;- Sienos/grindys tualete ir vonios kambaryje – plytelės;INFRASTRUKTŪRA IR SUSISIEKIMAS- Puikus susisiekimas su visais miesto rajonais;- Aplink daug mokyklų, darželiai, sveikatos priežiūros centrų;- Daug įvairių prekybos centrų;- Viešojo maitinimo, viešojo aptarnavimo (paslaugų) bei pramogų vietų.ATSTUMAI- Iki Centro – 6.58 km;NT brokerė Natalja Panavienėtel. 8 687 45798",,,,,,,,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-pilaiteje-lujos-g-nuomojamas-butas-pilaiteje-lujog-g-bute-4-1182608/,"Vilnius, Pilaitė, Lūjos g., 3 kambarių buto nuoma",190.0,8,62 m²,190 €,3,2,2,2020,Mūrinis,Dujinis,Įrengtas,www.aruodas.lt/4-1182608,2022-10-03,2022-10-03,,1,941/71 (iš viso/šiandien),54.715443,25.161982,941/71,,,"Nuomojamas butas Pilaitėje, Lūjog gBute gali apsigyventi darbininkai, šeima.BUTAS NUOMOJAMAS IŠ KARTO 4 ŽMONEMS.
+1 ASMUO - 190 EUR, BENDRA SUMA 760 EURTai šviesus, naujai įrengtas butas. Bute rasite visą būtiną buitine technika ir baldus.Bute yra dujinis grindinis šildymas.IŠPLANAVIMAS:-- Svetainė;
+-- Du miegamieji;
+-- WC ir dušas vienoje patalpoje.PARKINGAS:
+-- Bendras kiemas.VIETA:
+-- Ramūs kaimynai, rami vieta;
+-- Netoliese autobusų stotelė;
+-- Prie pat prekybos centrai;
+-- Dviračių bei pasivaikščiojimo takai;
+-- Netoliese žalios zonos.Butas jau laisvas!SKAMBINKITE JUMS PATOGIU LAIKU IR SUTEIKSIU DAUGIAU INFORMACIJOS.
+JEI BUTAS TIKS, BUS TAIKOMAS VIENKARTINIS TARPININKAVIMO MOKESTIS",,,,'NoneType' object has no attribute 'text',,10.2 µg/m3,19.7 µg/m3,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-pilaiteje-lujos-g-nuomojamas-butas-pilaiteje-lujog-g-butas-4-1162668/,"Vilnius, Pilaitė, Lūjos g., 3 kambarių buto nuoma",760.0,8,62 m²,760 €,3,2,2,2020,Mūrinis,Dujinis,Įrengtas,www.aruodas.lt/4-1162668,2022-08-01,2022-09-06,,25,10046/10 (iš viso/šiandien),54.715443,25.161982,10046/10,,,"Nuomojamas butas Pilaitėje, Lūjog gBUTAS NUOMOJAMAS 4 DARBININKAMS.1 ASMUO - 190 EUR, BENDRA SUMA 760 EURTai šviesus, naujai įrengtas butas. Bute rasite visą būtiną buitine technika ir baldus.Bute yra dujinis grindinis šildymas.IŠPLANAVIMAS:-- Svetainė;
+-- Du miegamieji;
+-- WC ir dušas vienoje patalpoje.PARKINGAS:
+-- Bendras kiemas.VIETA:
+-- Ramūs kaimynai, rami vieta;
+-- Netoliese autobusų stotelė;
+-- Prie pat prekybos centrai;
+-- Dviračių bei pasivaikščiojimo takai;
+-- Netoliese žalios zonos.Butas jau laisvas!SKAMBINKITE JUMS PATOGIU LAIKU IR SUTEIKSIU DAUGIAU INFORMACIJOS.
+JEI BUTAS TIKS, BUS TAIKOMAS VIENKARTINIS TARPININKAVIMO MOKESTIS",,,,'NoneType' object has no attribute 'text',,10.2 µg/m3,19.7 µg/m3,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-zirmunuose-zirmunu-g-nuomojamas-1kambarys-3-kambariu-bute-moterei-4-1179611/,"Vilnius, Žirmūnai, Žirmūnų g., kambario nuoma",170.0,113,14 m²,170 €,1,6,9,1970,Blokinis,Centrinis,Įrengtas,www.aruodas.lt/4-1179611,2022-10-03,2022-10-03,,8,1253/103 (iš viso/šiandien),54.722936,25.302821,1253/103,4 Klasė Vidutinė (4-5),,"Nuomojamas 1kambarys 3 kambarių bute moterei arba studentei
+сдается одна комната в трехкомнатной квартире женщине или студентке(можно получить компенсацию за аренду квартиры от государства)* Sudaroma oficiali sutartis tad galima gauti kompensacija busto nuomai
+* Gera lokacija
+* yra liftas
+* yra balkonas
+kituose kambariuose gyvena moterysnuomos kaina - 170eur
+depozitas - 170eur
+vienkartinis tarpininkavimo mokestis -160eur
+išviso įsikeliant reikia 500eur","Допомога українцям, , Lankstesnės nuomos sąlygos ukrainiečiams (dėl nuomos laikotarpio, kainos ar kt.). Daugiau informacijos – skelbime nurodytais kontaktais. / Більш гнучкі умови оренди для українців (за рахунок терміну оренди, цін тощо). Більше інформації за контактами, вказаними в оголошенні.",,,,,14.3 µg/m3,21 µg/m3,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-senamiestyje-subaciaus-g-isnuomojamas-jaukus-naujai-irengtas-butas-4-1182166/,"Vilnius, Senamiestis, Subačiaus g., 1 kambario buto nuoma",300.0,,15 m²,300 €,1,1,4,1958,Mūrinis,Centrinis,Įrengtas,www.aruodas.lt/4-1182166,2022-10-02,2022-10-02,,5,847/49 (iš viso/šiandien),54.677099,25.303153,847/49,,'NoneType' object has no attribute 'find_all',"Išnuomojamas jaukus naujai įrengtas butas/kambarys, Subačiaus g, Senamiestis.3 aukštas iš 4, kambario plotas 15 kv.m. Yra miegamoji vieta (lova), antikvarinė spinta, kėdės, foteliai, naujas šaldytuvas, mikrobangų krosnelė, arbatinukas. Labai šiltas ir ekonomiškas butas (kom. paslaugos 30-120€ už viską). Tinka vienam asmeniui gyventi, be augintinių. Patogumai bendri (bendrabutis): tualetu naudojasi 3 asmenys, sutvarkytas dušas, bendra virtuvė.For rent 1 room/apartment, Subaciaus str., Old Town. The apartment on the 3rd floor of 4, the room area ​​15 sq.m. It is a newly renovated. There is a bed, a wardrobe, a comfortable table with chairs, refrigerator, microwave. Very cosy and economical apartment (utilities all in 30-120 €) for one person, no pets. WC and shower, kitchen of communal use.Аренда комнаты/квартиры на ул. Subačiaus, Старый город. Комната на 3-eм этаже из 4х, площадь комнты 15 кв.м. Недавно отремонтированная. Спальное место (кровать), шкаф для одежды, удобный столик и стулья, холодольник, микроволновая печь, ел. чайник. Очень теплая и экономичная квартира (30-120 € за все комунальные услуги). Для проживания одного жильца, без домашних животных. Удобства (туалет и душ, кухня) общие.-- Objekto nr. Ober-Haus tinklapyje www.ober-haus.lt/OH474907Profesionali pagalba parduodant, nuomojant ir įsigyjant nekilnojamąjį turtą:
+- Sandoriui reikalingų dokumentų analizė prieš pardavimą;
+- Preliminariųjų, rezervavimo sutarčių, priėmimo-perdavimo aktų ir kitų sutarties priedų bei dokumentų parengimas apsaugant jūsų interesus;
+- Efektyvi ir itin platų pirkėjų ratą apimanti rinkodara ir marketingo priemonės, pirkėjų srauto monitoringas;
+- Jūsų interesų atstovavimas derybose, sutarčių derinime;
+- Konsultavimas mokestiniais, juridiniais klausimais.",,,,'NoneType' object has no attribute 'text',,,,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-naujamiestyje-vytenio-g-isnuomojamas-tvarkingas-vieno-kambario-butas-4-1181670/,"Vilnius, Naujamiestis, Vytenio g., 1 kambario buto nuoma",299.0,,"19,62 m²",299 €,1,4,5,1957,Mūrinis,Centrinis,Įrengtas,www.aruodas.lt/4-1181670,2022-09-30,2022-10-04,,1,851/52 (iš viso/šiandien),54.677922,25.264259,851/52,,,"Išnuomojamas tvarkingas vieno kambario butas Naujamiestyje, Vytenio gatvėje!VIETA IŠ KURIOS PASIEKSITE VISAS LANKOMIAUSIAIS VILNIAUS VIETASSOFA - LOVA JAU PERKAMA, TRŪKSTAMI BALDAI GALI BŪTI NUPIRKTISAUGI, TVARKINGA NAMO LAIPTINĖTVARKINGO BENDROS PATALPOS VIRTUVĖ, SKALBYKLA IR WCBUTAS LAISVAS GALIMA IŠKARTO PRADĖTI GYVENTIGEDIMINO PROSPEKTAS – 1200 MKATEDROS AIKŠTĖ – 2500 MBUTO NUOMO SĄLYGOS• Minimalus sutarties terminas vieneri metai
+• Mokėjimas už einamąjį mėnesį ir depozitas• Mokamas vienkartinis agentūros mokestis• Ieškomas tvarkingas/tvarkinga nuomininkas/ė
+• Be naminių gyvūnų
+• Tik lietuviamsBUTO APRAŠYMAS
+• Kambarių skaičius – 1
+• Plotas 19.62 kv.m
+• Aukštas 4/5
+• Balkonas (dalinai įstiklintas)
+• Virtuvė (bendro naudojimo patalpose, kuria naudojote tik Jūs)
+• Skalbykla (bendro naudojimo patalpose, skalbyklė yra tik Jums)
+• WC (bendro naudojimo patalpose, naudositės Jūs vienas)
+• Sandėliukas• Sienos dažytos• Grindys parketas• Sieninė spinta bute
+• Sofa – lova (jau perkama)
+• Šaldytuvas• Išorės durys šarvo tipo
+• Plastikiniai langai su stiklo paketu
+• Langų orientacija Vakarai• Trūkstami baldai gali būti nupirkti pagal susitarimąNAMO APRAŠYMAS
+• Mūrinis
+• Statybos metai 1957
+• Šalia namo erdvi automobilio stovėjimo aikštelė (nemokama)
+• Rakinama, tvarkinga laiptinė
+• Bendrija• Šildymas centrinisVIETOS APRAŠYMAS
+• Gedimino prospektas – 1200 m
+• Visuomeninio transporto stotelė: T. Ševčenkos – 350 m• Prekybos centrai: HyperRimi – 650 m, Maxima – 700 m
+• Laisvalaikis: kino teatras „Vingis“ – 800 m, Vingio parkas – 1500 mMaloniai kviečiame apžiūrėti nuomojamą butą Jums patogiu metu.Patiko butas, bet netiko kaina pasiūlykite savo!Detalesnę informaciją, suteiksiu telefonu arba susitikimo metu.",,"Skalbimo mašina, Su baldais, Šaldytuvas, Virtuvės komplektas, Viryklė","Šarvuotos durys, Kodinė laiptinės spyna",'NoneType' object has no attribute 'text',Balkonas,13.6 µg/m3,22.1 µg/m3,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-seskineje-seskines-g-isnuomojamas-kambarys-2-iu-kambariu-bute-4-1181558/,"Vilnius, Šeškinė, Šeškinės g., 1 kambario buto nuoma",190.0,79,15 m²,190 €,1,2,16,1980,Monolitinis,Centrinis,Įrengtas,www.aruodas.lt/4-1181558,2022-09-30,2022-09-30,,5,830/58 (iš viso/šiandien),54.714447,25.246629,830/58,4 Klasė Vidutinė (4-5),,"Išnuomojamas kambarys 2-ių kambarių bute Šeškinėje ilgam laikui žmogui be vaikų ir gyvunų.
+Kaina vienam žmogui 190 eur + 1/2 komunaliniai
+Kambarys nuomojamas SU VISAIS BALDAIS.
+YRA BALKONAS
+Bute gyvena šeimininkė.
+Aplinkui daug mokyklų, parduotuvių.
+PUIKUS KAMBARYS UŽ GERĄ KAINĄ
+Jei butas tiks, bus įmamas vienkartinis agentūros mokestis.Сдаётся КОМНАТА в 2-yх комнатной квартире.
+Аренда 190 евро + 1/2 коммунальные услуги
+В квартире живёт хозяйка.
+***********************************
+UAB “Vilniaus Turtas”
+www.vilniaus-turtas.lt","Tualetas ir vonia atskirai, Internetas, Kabelinė televizija, Buto dalis","Skalbimo mašina, Su baldais, Šaldytuvas, Virtuvės komplektas, Viryklė, Vonia","Šarvuotos durys, Kodinė laiptinės spyna",,Balkonas,14.5 µg/m3,20.7 µg/m3,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-lazdyneliuose-uzutekio-g-nuomojamas-sviesus-ir-jaukus-kambarys-4-1176871/,"Vilnius, Lazdynėliai, Užutėkio g., kambario nuoma",250.0,,20 m²,250 €,1,2,2,2001,Mūrinis,Dujinis,Įrengtas,www.aruodas.lt/4-1176871,2022-09-29,2022-09-29,,34,1624/86 (iš viso/šiandien),54.650623,25.20728,1624/86,,'NoneType' object has no attribute 'find_all',"Nuomojamas šviesus ir jaukus KAMBARYS NUOSAVAME NAME. Kambarys nuomojamas su baldais. Name visa reikalinga buitinė technika: skalbimo mašina, šaldytuvas, viryklė ir t.t. Galima naudotis skalbykla, SPORTO SALE, KIEMU!!! Netoliese parduotuvės, viešojo transporto stotelė.VISADA RASITE KUR PASISTATYTI AUTOMOBILĮ!!!!!
+PUIKUS KAMBARYS UŽ GERĄ KAINĄ!!!!!Jeigu kambarys tiks, bus taikomas vienkartinis tarpininkavimo mokestis.
+KAMBARYS JAU LAISVAS.*****************************
+Skambinti galite Jums patogiu laiku. Nepavykus prisiskambinti, rašykite sms - perskambinsiu.**************
+Dirbu ir savaitgaliais!","Tualetas ir vonia atskirai, Nauja kanalizacija, Nauja elektros instaliacija, Uždaras kiemas, Internetas, Kabelinė televizija","Skalbimo mašina, Su baldais, Šaldytuvas, Virtuvės komplektas, Viryklė, Dušo kabina",,'NoneType' object has no attribute 'text',"Sandėliukas, Rūsys, Vieta automobiliui, Drabužinė",,,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-snipiskese-rinktines-g-nuomojamas-1-k-butas-snipiskese-4-1181478/,"Vilnius, Šnipiškės, Rinktinės g., 1 kambario buto nuoma",300.0,,16 m²,300 €,1,1,5,1961,Mūrinis,Centrinis,Įrengtas,www.aruodas.lt/4-1181478,2022-09-29,2022-09-29,,25,1353/78 (iš viso/šiandien),54.698255,25.285883,1353/78,7 Klasė Bloga (6-8),'NoneType' object has no attribute 'find_all',"NUOMOJAMAS 1 K. BUTAS ŠNIPIŠKĖSE!
+___________________________________________________________
+Tvarkingai įrengtas kompaktiškas vieno karmario butas ieško naujų nuomininkų! Prižiūrėtas pastatas, tvarkinga laiptinė, ramūs ir draugiški kaimynai. Butas pilnai paruoštas gyventi iš karto. Puiki lokcinė vieta: visa reikalingiausia infrastruktūra tarsi ant delno, o Vilniaus miesto centras vos už poros kilometrų!BENDRA INFORMACIJA:
+• Bendras plotas – 16 kv. m;
+• Namo tipas – mūrinis;
+• Statybos metai – 1961 m.;
+• Šildymas – centrinis;
+• Kambarių skaičius – 1.IŠPLANAVIMAS:
+• Kambarys;
+• Mini virtuvėlė koridoriuje;
+• Dušas+wc.ĮRENGIMAS:
+• Įrengimas – tvarkingas, su baldais - galimybė gyventi iš karto;
+• Langai – plastikiniai;
+• Grindys – laminatas;
+• Sienos – dažytos.KITA INFORMACIJA:
+• Telefonas, internetas, kabelinė televizija;
+• Puikus susisiekimas viešuoju transportu su visais miesto mikrorajonais, iki Vilniaus miesto centro tik 2 km arba 4 min kelio automobiliu.Maloniai kviečiame atvykti į apžiūrą ir apsižiūrėti gyvai! Visus naujausius CAPITAL nekilnojamojo turto skelbimus rasite mūsų internetiniame puslapyje www.capital.lt. Kviečiame apsilankyti!
+Ieškote, parduodate ar nuomojate nekilnojamąjį turtą ir nežinote nuo ko pradėti?
+- Visada rasiu laiko Jums ir padėsiu visais su nekilnojamuoju turtu susijusiais klausimais!
+Jūsų NT brokeris Dmitrij Presnov – CAPITAL Team (www.capital.lt)
+Tel. 8 675 90 968, el. paštas - dmitrij.presnov@capital.lt",,,,,,,,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-baltupiuose-baltupio-g-isnuomojamas-tvarkingas-jaukus-ir-siltas-4-1179811/,"Vilnius, Baltupiai, Baltupio g., 1 kambario buto nuoma",280.0,41,"14,18 m²",280 €,1,10,12,1993,Mūrinis,Centrinis,Įrengtas,www.aruodas.lt/4-1179811,2022-09-23,2022-10-01,,4,1232/42 (iš viso/šiandien),54.725453,25.27095,1232/42,5 Klasė Vidutinė (4-5),'NoneType' object has no attribute 'find_all',"Išnuomojamas tvarkingas , jaukus ir šiltas butas bloke - t. y. tualetas ir vonia naudojasi dar viena kaimyne - moteris. Maži komunaliniai mokesčiai, tvarkingi kaimynai, saugi aplinka . Labai patogus susisiekimas su visais Vilniaus miesto mikrorajonais , šalia viešojo transporto stotelių, PC ""IKI"", ""MAXIMA"". butas išnuomojamas ilgesniam laikui ir jeigu tiks, bus sudaroma nuomos sutartis ir taikomas vienkartinis tarpininkavimo mokestis.","Internetas, Kabelinė televizija","Su baldais, Šaldytuvas, Viryklė, Dušo kabina","Šarvuotos durys, Kodinė laiptinės spyna",,,,,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-paneriuose-v-a-graiciuno-g-nuomojamas-tvarkingas-sviesus-bei-jaukus-4-1080941/,"Vilnius, Paneriai, V. A. Graičiūno g., 1 kambario buto nuoma",250.0,10,11 m²,250 €,1,3,5,"1985 statyba, 2020 renovacija",Mūrinis,Elektra,Įrengtas,www.aruodas.lt/4-1080941,2022-09-23,2022-10-04,,319,1687/45 (iš viso/šiandien),54.621787,25.144173,1687/45,,'NoneType' object has no attribute 'find_all',"NUOMOJAMAS TVARKINGAS, ŠVIESUS BEI JAUKUS, BUTAS V.A. GRAIČIŪNO G. 10• 2020m. RENOVUOTAS NAMAS
+• VISI PATOGUMAI BUTE
+• ATSKIRAS BUTAS ( NE BENDRABUČIO TIPO ! )
+• ŠILDYMO SEZONO METU KOMPENSUOJAME DALĮ ELEKTROS IŠLAIDŲ.BENDRA INFORMACIJA:
+• Adresas: V.A. Graičiūno g. 10
+• Šildymas: Elektra
+• Vandentiekis ir kanalizacija: miestoĮRENGIMAS:
+• Sienos: dažytos
+• Grindys: linoliaumas
+• Langai: plastikiniai
+• Durys: medžio laminato
+• Yra visi reikalingiausi baldai bei buitinė technikaVIETA:
+• Namo kieme nemokamos parkavimo vietos.
+• Patogus susisiekimas, prie pat namo autobusų stotelė.
+• Arti kelios kavinės, valgyklos, maisto prekių parduotuvė.Nuomos mokestis yra 62.5 eurai už savaitę (250eur/4 savaitėms), mokama kartą per mėnesį plius komunalinės paslaugos.
+Įsikėlimui bei sutarties pasirašymui iš viso reiktų 680 Eur (į šią sumą įeina užstatas/depozitas 2mėn mėn 500eur., ir VIENKARTINIS TARPININKAVIMO MOKESTIS 180eur.), o nuomos mokestis mokamas po gyvento laikotarpio.ATSIRADUS NUOMININKAMS, SKELBIMAS BUS PAŠALINTAS.",,,,'NoneType' object has no attribute 'text',,,,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-antakalnyje-zolyno-g-geras-pasiulymas-gera-kaina-antakalnyje-4-1178399/,"Vilnius, Antakalnis, Žolyno g., 1 kambario buto nuoma",300.0,,20 m²,300 €,1,0,5,1976,Mūrinis,"Elektra, centrinis kolektorinis",Įrengtas,www.aruodas.lt/4-1178399,2022-09-19,2022-10-09,,37,3066/75 (iš viso/šiandien),54.711638,25.315488,3066/75,,'NoneType' object has no attribute 'find_all',"GERAS PASIŪLYMAS - GERA KAINA!!!
+Antakalnyje, Žolyno g., išnuomojamas JAUKUS 20 kv. m. vieno kambario butas.
+Buto išplanavimas: 1 kambarys kartu su virtuvėle, vonios kambarys kartu su WC.
+Bute yra visi reikalingi baldai ir buitinė technika (šaldytuvas, skalbimo mašina, viryklė).
+LABAI MAŽI KOMUNALINIAI.
+Name tvarkinga ir rakinama laiptinė, ramūs kaimynai.
+Butas laisvas nuo 2022-10-20 apžiurėti ir rezervuoti galima iš anksto.
+**************************************************
+Skambinti galite Jums patogiu laiku. Nepavykus prisiskambinti, rašykite sms - perskambinsiu.
+******************************************************************
+Nekilnojamo turto agentūra OPPA.
+www.oppa.lt","Nauja kanalizacija, Nauja elektros instaliacija, Internetas, Kabelinė televizija, Virtuvė sujungta su kambariu","Skalbimo mašina, Su baldais, Šaldytuvas, Virtuvės komplektas, Viryklė, Plastikiniai vamzdžiai, Dušo kabina","Šarvuotos durys, Kodinė laiptinės spyna",'NoneType' object has no attribute 'text',,,,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-snipiskese-maisiagalos-g-nuomojamas-2-kambariu-butas-snipiskese-4-1177643/,"Vilnius, Šnipiškės, Maišiagalos g., 2 kambarių buto nuoma",300.0,34,48 m²,300 €,2,1,5,1977,Blokinis,Centrinis,Įrengtas,www.aruodas.lt/4-1177643,2022-09-16,2022-10-05,,14,1782/52 (iš viso/šiandien),54.710656,25.282367,1782/52,5 Klasė Vidutinė (4-5),'NoneType' object has no attribute 'find_all',"NUOMOJAMAS 2 KAMBARIŲ BUTAS ŠNIPIŠKĖSE.IŠPLANAVIMAS:
+-- 2 kambarių butas-- Prieškambaris-- Miegamasis
+-- Virtuvė atskirai
+-- WC ir vonia kartuŠILDYMAS:
+-- CentrinisPARKINGAS:
+-- Parkavimas bendrame kiemeVIETA:
+-- Šalia prekybos centras
+-- Patogi vieta susisiekimo atžvilgiu
+-- Greitai pasieksite centrąJeigu butas tiks, bus taikomas vienkartinis agentūros mokestisSKAMBINKITE JUMS PATOGIU LAIKU IR SUTEIKSIU DAUGIAU INFORMACIJOS.",,,,,,,,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-baltupiuose-kalvariju-g-nuomojamas-kambarys-dvieju-kambariu-bute-4-1173261/,"Vilnius, Baltupiai, Kalvarijų g., kambario nuoma",300.0,,40 m²,300 €,1,2,5,1968,Blokinis,Centrinis,Įrengtas,www.aruodas.lt/4-1173261,2022-09-02,2022-09-23,,107,10666/158 (iš viso/šiandien),54.712,25.284395,10666/158,4 Klasė Vidutinė (4-5),'NoneType' object has no attribute 'find_all',"NUOMOJAMAS KAMBARYS, DVIEJŲ KAMBARIŲ BUTE.Butas itin šiltas ir erdvus. Vonios kambarys ir tualetas yra atskirose patalpose .IŠPLANAVIMAS:
+-- Prieškambaris;
+-- Virtuvė;
+-- Vonios kambarys;
+-- Tualetas;
+-- Miegamasis;
+-- Įstiklintas balkonas.ĮRENGIMAS:
+-- Plastikiniai langai;
+-- Baldai;
+-- Visa reikiama buitinė technika: šaldytuvas, viryklė, orkaitė.ŠILDYMAS:
+-- Centrinis.VIETA:
+-- Strategiškai patogi vieta, patogus susisiekimas viešuoju transportu ir nuosavu automobiliu;
+-- Šalia daug mokymo įstaigų ir prekybos centrų.-- Netoli viešojo transporto stotelės;
+-- Dviračių bei pasivaikščiojimo takai.Skambinkite Jums patogiu metu ir suteiksiu daugiau informacijos!
+Jeigu butas tiks, bus taikomas vienkartinis tarpininkavimo mokestis.
+",,,,,,,,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-karoliniskese-algimanto-petro-kavoliuko-g-karoliniskese-nuomojamas-jaukus-kambarys-3-4-1172461/,"Vilnius, Karoliniškės, Algimanto Petro Kavoliuko g., kambario nuoma",200.0,,17 m²,200 €,1,2,5,1974,Blokinis,Centrinis,Įrengtas,www.aruodas.lt/4-1172461,2022-08-31,2022-10-01,,22,5313/83 (iš viso/šiandien),54.694647,25.213594,5313/83,,'NoneType' object has no attribute 'find_all',"Karoliniškėse nuomojamas jaukus kambarys 3 atskirų kambarių. Kambaryje yra atskiras šaldytuvas. Butas tvarkingas, su visais baldais ir buitine technika. Vonia ir WC atskiri. Kituose kambariuose gyvena šeimininkė ir dirbantis vyras.
+Išnuomojamas ilgam laikui. Vienkartinis agentūros mokestis 180 eurų.","Tualetas ir vonia atskirai, Internetas, Kabelinė televizija","Skalbimo mašina, Su baldais, Šaldytuvas, Virtuvės komplektas, Viryklė, Vonia","Šarvuotos durys, Kodinė laiptinės spyna",'NoneType' object has no attribute 'text',,,,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-naujojoje-vilnioje-pramones-g-geras-pasiulymas-gera-kaina-nuomojamas-4-1159028/,"Vilnius, Naujoji Vilnia, Pramonės g., 1 kambario buto nuoma",300.0,141,20 m²,300 €,1,5,5,1976,Mūrinis,"Elektra, centrinis kolektorinis",Įrengtas,www.aruodas.lt/4-1159028,2022-07-15,2022-10-09,,48,3118/44 (iš viso/šiandien),54.694177,25.442351,3118/44,,,"GERAS PASIŪLYMAS - GERA KAINA!!!
+NUOMOJAMAS NAUJAS SUREMONTUOTAS 1K. BUTAS NAUJOJOJE VILNIOJE, Pramonės g.
+Išnuomojamas JAUKUS 20 kv. m. vieno kambario butas.
+Buto išplanavimas: kambarys kartu su virtuve, vonios kambarys kartu su WC.
+Bute yra visi reikalingi baldai (šaldytuvas, viryklė, skalbimo mašina).
+MAŽI ŠILDYMO KAŠTAI.
+Name tvarkinga laiptinė, ramūs kaimynai.
+BUTAS LAISVAS.
+**************************************************
+Skambinti galite Jums patogiu laiku. Nepavykus prisiskambinti, rašykite sms - perskambinsiu.
+******************************************************************
+Nekilnojamo turto agentūra OPPA.
+www.oppa.lt","Aukštos lubos, Nauja kanalizacija, Nauja elektros instaliacija, Internetas, Virtuvė sujungta su kambariu","Skalbimo mašina, Su baldais, Šaldytuvas, Virtuvės komplektas, Viryklė, Dušo kabina","Šarvuotos durys, Kodinė laiptinės spyna",'NoneType' object has no attribute 'text',,9.7 µg/m3,22.3 µg/m3,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-karoliniskese-dariaus-gerbutaviciaus-g-isnuomojamas-tvarkingas-jaukus-ir-siltas-4-1126558/,"Vilnius, Karoliniškės, Dariaus Gerbutavičiaus g., kambario nuoma",160.0,10,18 m²,160 €,1,3,5,1975,Blokinis,Centrinis,Įrengtas,www.aruodas.lt/4-1126558,2022-07-05,2022-09-27,,23,3081/38 (iš viso/šiandien),54.692856,25.210373,3081/38,,'NoneType' object has no attribute 'find_all',"Išnuomojamas tvarkingas, jaukus ir šiltas kabarys dviejų kambarių bute. Kitame kambarije givena labai draugiška šeimininkė. Pageidaujama mergina arba moteris. Kambarys išnuomojamas ilgesniam laikui ir jeigu tiks, bus sudaroma nuomos sutartis ir taikomas vienkartinis tarpininkavimo mokestis.","Internetas, Kabelinė televizija","Skalbimo mašina, Šaldytuvas, Viryklė, Vonia","Šarvuotos durys, Kodinė laiptinės spyna",'NoneType' object has no attribute 'text',,,,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-naujojoje-vilnioje-pergales-g-isnuomojamas-tvarkingas-jaukus-ir-siltas-4-1053227/,"Vilnius, Naujoji Vilnia, Pergalės g., 2 kambarių buto nuoma",250.0,15,32 m²,250 €,2,3,5,1974,Mūrinis,Centrinis,Įrengtas,www.aruodas.lt/4-1053227,2021-02-02,2022-10-05,,1,2491/64 (iš viso/šiandien),54.689285,25.410792,2491/64,4 Klasė Vidutinė (4-5),,"Išnuomojamas tvarkingas, jaukus ir šiltas butas bendrabučio tipo pastate. Maži komunaliniai mokesčiai, tvarkingi kaimynai. Labai patogus susisiekimas su visais Vilniaus miesto mikrorajonais, šalia viešojo transporto stotelių, PC ""MAXIMA"", ""IKI"", ""LIDL"". Bute yra kriauklė, skalbimo mašina, tualetas ir dušine yra bendro naudojimo (ant 3 kambarių). Butas išnuomojamas ilgesniam laikui ir jeigu tiks, bus sudaroma nuomos sutartis ir taikomas vienkartinis tarpininkavimo mokestris","Internetas, Kabelinė televizija","Skalbimo mašina, Šaldytuvas, Virtuvės komplektas, Viryklė, Dušo kabina","Šarvuotos durys, Kodinė laiptinės spyna",,,13.6 µg/m3,26.5 µg/m3,,
+https://www.aruodas.lt/butu-nuoma-vilniuje-seskineje-musninku-g-tvarkingas-1-kambarys-seskineje-3-kambariu-4-873831/,"Vilnius, Šeškinė, Musninkų g., kambario nuoma",200.0,,15 m²,200 €,1,5,5,1980,Blokinis,Centrinis,Įrengtas,www.aruodas.lt/4-873831,2018-12-30,2022-10-03,,12,4799/80 (iš viso/šiandien),54.716279,25.238872,4799/80,5 Klasė Vidutinė (4-5),,"TVARKINGAS 1 KAMBARYS ŠEŠKINĖJE (3 KAMBARIŲ BUTE) IR KARTU DAR SVETAINĖ, KURIĄ REIKĖTŲ DALINTIS SU KITU NUOMININKU!PAGEIDAUJAMAS NUOMININKAS - 1 ASMUO.
+BUTE GYVENA DAR VIENAS VAIKINAS.IŠPLANAVIMAS:
+-- Miegamasis
+-- Virtuvė
+-- Vonios kambarys
+-- Tualetas
+-- PrieškambarisĮRENGIMAS:
+-- Lova
+-- Spinta-- Virtuvės baldai
+-- Televizorius
+-- Visa buitinė technika (viryklė, orkaitė, gartraukis, šaldytuvas, mikrobangų krosnelė, skalbimo mašina)
+-- Rakinama laiptinėŠILDYMAS:
+-- CentrinisVIETA:
+-- Geras susisiekimas su miesto centru
+-- Šalia prekybos centrai (IKI, MAXIMA)
+-- Šalia viešojo transporto stotelės
+-- Netoliese Šeškinės poliklinika
+-- Netoliese ,,AKROPOLIS""PAPILDOMA INFORMACIJA NUOMININKAMS:
+-- 1 mėnesio nuoma į priekį (200 Eur)
+-- 1 mėnesio dydžio užstatas (200 Eur)
+-- Jei butas tiks - bus taikomas vienkartinis tarpininkavimo mokestis (200 Eur)",,,,,,11.4 µg/m3,19.8 µg/m3,,

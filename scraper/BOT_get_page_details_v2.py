@@ -3,6 +3,8 @@ import datetime
 from bs4 import BeautifulSoup
 from collections import Counter
 import pandas as pd
+from pandas.errors import InvalidIndexError
+
 import aruodas_lib_2.get_tbl_library as aruodas
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -16,12 +18,12 @@ pd.set_option('display.expand_frame_repr', False)
 
 crawl_date_yyyy_mm_dd = datetime.date.today().strftime("%Y_%m_%d")
 # crawl_date_yyyy_mm_dd = '2022_10_08'
+tipas='butu-nuoma'
 
-
-def get_raw_urls():
+def get_raw_urls(crawl_date_yyyy_mm_dd, tipas):
     par_dir = os.path.dirname(os.getcwd())
     name_df = f'date_crawled_{crawl_date_yyyy_mm_dd}.csv'
-    df_crawled = pd.read_csv(f'{par_dir}/crawler/data/{name_df}')
+    df_crawled = pd.read_csv(f'{par_dir}/crawler/data/{tipas}/{name_df}')
     url_list = df_crawled['url'].to_list()
     return url_list
 
@@ -107,7 +109,7 @@ continue_old_list = input("Continue previously failed session? "
                           "\n(Useful if previous execution was interrupted)"
                           "\nType Y/n:")
 if continue_old_list == 'Y':
-    raw_url_list = get_raw_urls()
+    raw_url_list = get_raw_urls(crawl_date_yyyy_mm_dd, tipas)
     scarped_urls = set(get_scraped_ulrs())
 
     urls_not_scraped = [x for x in raw_url_list if x not in scarped_urls]
@@ -119,7 +121,7 @@ if continue_old_list == 'Y':
 
 elif continue_old_list == 'n':
     print('Parsing thorugh all URLs again')
-    url_list = get_raw_urls()
+    url_list = get_raw_urls(crawl_date_yyyy_mm_dd, tipas)
     df_all_scraped_main = pd.DataFrame(columns=['url_crawl'])
     df_all_scraped_crime = pd.DataFrame(columns=['url_crawl'])
     df_all_scraped_surroundings = pd.DataFrame(columns=['url_crawl'])
@@ -130,20 +132,24 @@ else:
 '''
 SCRAPING
 '''
+
 options = Options()
 options.headless = False
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
-for url in tqdm(url_list[0:5]):
+for url in tqdm(url_list):
     enter_url(url)
     df_url_scraped = scrape_data()
+    try:
+        df_all_scraped_main = pd.concat([df_all_scraped_main, df_url_scraped['df_main_data']], axis=0).reset_index(
+            drop=True)
+        df_all_scraped_crime = pd.concat([df_all_scraped_crime, df_url_scraped['df_crime']], axis=0).reset_index(drop=True)
+        df_all_scraped_surroundings = pd.concat([df_all_scraped_surroundings, df_url_scraped['df_surroundings']],
+                                                axis=0).reset_index(drop=True)
+        save_all_csv(f'data/temporal')
+    except InvalidIndexError:
+        print(f'Failed to scrape this URL: {url}')
 
-    df_all_scraped_main = pd.concat([df_all_scraped_main, df_url_scraped['df_main_data']], axis=0).reset_index(
-        drop=True)
-    df_all_scraped_crime = pd.concat([df_all_scraped_crime, df_url_scraped['df_crime']], axis=0).reset_index(drop=True)
-    df_all_scraped_surroundings = pd.concat([df_all_scraped_surroundings, df_url_scraped['df_surroundings']],
-                                            axis=0).reset_index(drop=True)
-    save_all_csv(f'data/temporal')
 driver.quit()
 df_all_scraped_main.loc[:, 'scrape_date'] = datetime.date.today().strftime("%Y_%m_%d")
 df_all_scraped_crime.loc[:, 'scrape_date'] = datetime.date.today().strftime("%Y_%m_%d")
@@ -152,10 +158,10 @@ df_all_scraped_surroundings.loc[:, 'scrape_date'] = datetime.date.today().strfti
 '''
 SAVING
 '''
-if os.path.exists(f"data/{crawl_date_yyyy_mm_dd}")==False:
-    os.mkdir(f"data/{crawl_date_yyyy_mm_dd}")
+# if os.path.exists(f"data/{tipas}/{crawl_date_yyyy_mm_dd}")==False:
+os.makedirs(f"data/{tipas}/{crawl_date_yyyy_mm_dd}",  exist_ok=True)
 
-save_all_xlsx(f'data/{crawl_date_yyyy_mm_dd}/scraped_all_{crawl_date_yyyy_mm_dd}.xlsx')
-save_main_csv(f'data/{crawl_date_yyyy_mm_dd}/scraped_main_{crawl_date_yyyy_mm_dd}.csv')
+save_all_xlsx(f'data/{tipas}/{crawl_date_yyyy_mm_dd}/scraped_all_{crawl_date_yyyy_mm_dd}.xlsx')
+save_main_csv(f'data/{tipas}/{crawl_date_yyyy_mm_dd}/scraped_main_{crawl_date_yyyy_mm_dd}.csv')
 # print(df_all_scraped.to_markdown())
 #
