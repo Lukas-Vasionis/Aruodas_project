@@ -12,8 +12,8 @@ def print_all_dfs(obj):
 pd.set_option('display.expand_frame_repr', False)
 
 crawl_date_yyyy_mm_dd = datetime.date.today().strftime("%Y_%m_%d")
-crawl_date_yyyy_mm_dd = '2022_09_15'
-tipas = 'butai'
+# crawl_date_yyyy_mm_dd = '2022_11_02'
+tipas = 'butu-nuoma'
 
 '''
 CREATING URL LIST FOR CRAPING:
@@ -27,8 +27,8 @@ url_list, all_scr_data = sc.continue_previous_url_list(crawl_date_yyyy_mm_dd, ti
 driver = sc.get_driver()
 
 
-for url in tqdm(url_list[0:2]):
-
+for url in tqdm(url_list):
+    print()
     try:
         sc.enter_url(url, driver)
         url_page_data = sc.scraped_data(main_data=None,

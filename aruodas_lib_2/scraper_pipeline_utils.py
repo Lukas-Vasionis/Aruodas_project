@@ -1,3 +1,4 @@
+import os
 from os import getcwd, listdir, getcwd
 from os.path import dirname
 
@@ -13,6 +14,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 import time
 import datetime
 from collections import ChainMap
+import lxml
 
 
 class scraped_data:
@@ -145,13 +147,13 @@ def continue_previous_url_list(crawl_date_yyyy_mm_dd, tipas):
 
     def get_scraped_ulrs():
         def get_list_urls(df_name):
-            df = read_csv(f'data/temporal/{df_name}')
+            df = read_csv(f'./data/scraper/temporal/{df_name}')
             list_url = df['url_crawl'].tolist()
             list_url = list(set(list_url))
             return list_url
 
-
-        names_of_files = [x for x in listdir('./data/temporal/') if crawl_date_yyyy_mm_dd in x]
+        print(os.getcwd())
+        names_of_files = [x for x in listdir('./data/scraper/temporal') if crawl_date_yyyy_mm_dd in x]
         scraped_urls = [get_list_urls(x) for x in names_of_files]
         scraped_urls = [j for i in scraped_urls for j in i]
 
@@ -171,9 +173,9 @@ def continue_previous_url_list(crawl_date_yyyy_mm_dd, tipas):
         urls_not_scraped = [x for x in raw_url_list if x not in scarped_urls]
 
         url_list = urls_not_scraped
-        # df_all_scraped_main = read_csv(f'data/temporal/scraped_main_{crawl_date_yyyy_mm_dd}.csv')
-        # df_all_scraped_crime = read_csv(f'data/temporal/scraped_crime_{crawl_date_yyyy_mm_dd}.csv')
-        # df_all_scraped_surroundings = read_csv(f'data/temporal/scraped_surroundings_{crawl_date_yyyy_mm_dd}.csv')
+        # df_all_scraped_main = read_csv(f'/data/scraper/temporal/scraped_main_{crawl_date_yyyy_mm_dd}.csv')
+        # df_all_scraped_crime = read_csv(f'/data/scraper/temporal/scraped_crime_{crawl_date_yyyy_mm_dd}.csv')
+        # df_all_scraped_surroundings = read_csv(f'/data/scraper/temporal/scraped_surroundings_{crawl_date_yyyy_mm_dd}.csv')
         scr_data = scraped_data(main_data=[], crime=[], surroundings=[])
         scr_data.make_from_temp_folder(crawl_date_yyyy_mm_dd)
 
