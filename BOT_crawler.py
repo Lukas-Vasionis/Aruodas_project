@@ -17,12 +17,12 @@ crl.start_bot(START_URL, driver)
 
 '''
 From the given filter a START_URL is constructed. From here, we start the crawling process.
-In the contents START_URL we look for the number of the last page in the page ruller at the buttom of the page.
+In the contents START_URL we look for the number of the last page in the page ruler at the buttom of the page.
 The page number will be later stored into last_pg_no variable and used for "for" loop.
 Before the loop, an empty df is created for storing the urls of ads and additional data.
 Inside the loop:
 
-    * Since the START_URL is the same as the 1st page in the page ruller, we go straight to the scraping part
+    * Since the START_URL is the same as the 1st page in the page ruler, we go straight to the scraping part
     
     * The rest of the pages are constructed, accessed and then scraped.
     
