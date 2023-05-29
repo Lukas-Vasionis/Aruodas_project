@@ -84,4 +84,4 @@ def get_pg_url_links(df_url_ads, current_url, driver):
 
 def go_to_pg_url(pg_url, driver):
     driver.get(pg_url)
-    time.sleep(random.uniform(3, 4))
+    time.sleep(random.uniform(0.5, 1))

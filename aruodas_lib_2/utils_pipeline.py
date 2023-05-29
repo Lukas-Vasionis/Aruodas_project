@@ -6,7 +6,10 @@ import pandas as pd
 from pandas import read_csv, DataFrame, concat, ExcelWriter
 from bs4 import BeautifulSoup
 from collections import Counter
-from . import scraper_page_scraper as pg_scraper
+
+from selenium.webdriver.common.by import By
+
+from . import utils_page_scraper as pg_scraper
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
@@ -17,13 +20,25 @@ from collections import ChainMap
 import lxml
 
 
-class scraped_data:
+# scraped_data
+class Ad:
     def __init__(self, main_data, crime, surroundings):
+        """
+        :param main_data: data about apartments location, description etc.
+        :param crime: crime statistics in the area
+        :param surroundings: statistics about kindergardens, shops, bus stops etc. arround the appartment
+        """
+
         self.main_data = main_data
         self.crime = crime
         self.surroundings = surroundings
 
     def make_from_temp_folder(self, crawl_date_yyyy_mm_dd):
+        """
+        This functions reads the data from previously terminated session that is saved into data/scraper/temporal.
+        :param crawl_date_yyyy_mm_dd: date of the terminated session
+        :return: self
+        """
         self.main_data = read_csv(f'data/scraper/temporal/{crawl_date_yyyy_mm_dd}_scraped_main.csv')
         self.crime = read_csv(f'data/scraper/temporal/{crawl_date_yyyy_mm_dd}_scraped_crime.csv')
         self.surroundings = read_csv(f'data/scraper/temporal/{crawl_date_yyyy_mm_dd}_scraped_surroundings.csv')
@@ -34,30 +49,30 @@ class scraped_data:
         self.surroundings = self.surroundings.values.tolist()
         return self
 
-    # def make_from_zero(self):
-    #     # self.main_data = DataFrame(columns=['url_crawl'])
-    #     # self.crime = DataFrame(columns=['url_crawl'])
-    #     # self.surroundings = DataFrame(columns=['url_crawl'])
-    #     self.main_data = []
-    #     self.crime = []
-    #     self.surroundings = []
-    #     return self
 
     def scrape_data(self, driver):
-        soup = BeautifulSoup(driver.page_source, 'lxml')
-        skelbimo_pavadinimas = pg_scraper.get_skelbimo_pavadinimas(soup)
-        df_skelbimo_santrauka = pg_scraper.get_tbl_obj_details_v2(soup, 'obj-details')
-        df_skelbimo_datos = pg_scraper.get_tbl_obj_details_v2(soup, "obj-stats")
-        price_eur = pg_scraper.get_price_eur(soup)
+        '''
+        Scrapes the data using funcs from scraper_page_scraper and concat it into 3 datasets of class Ad
 
+        :param driver: webdriver object
+        :return: self with scraped data of the page that the webdriver object is on.
+        '''
+        soup = BeautifulSoup(driver.page_source, 'lxml')
+
+        # First we create the separate objects with info about Ad. Every variable is a dict
+        skelbimo_pavadinimas = pg_scraper.get_skelbimo_pavadinimas(soup)
+        skelbimo_santrauka = pg_scraper.get_tbl_obj_details_v2(soup, 'obj-details')
+        skelbimo_statistika = pg_scraper.get_tbl_obj_details_v2(soup, "obj-stats") 
+        price_eur = pg_scraper.get_price_eur(soup)
         coordinates = pg_scraper.get_coordinates(soup)
         skelbimo_perziura = pg_scraper.get_perziuru_sk(soup)
         skelbimo_tekstas = pg_scraper.get_skelbimo_tekstas(soup)
-        e_klase = pg_scraper.get_energy_consumption_class(soup)
+        e_klase = pg_scraper.get_energy_consumption_class(soup) # Energy class
         oro_tarsa = pg_scraper.get_air_polution_data(soup)
-        url_crawl = driver.current_url
+        url_crawl = driver.current_url # Url with which one enters the page
 
-        self.main_data = skelbimo_pavadinimas | df_skelbimo_santrauka | df_skelbimo_datos | price_eur | coordinates | \
+        # Later, these objects are joined together into three datasets: main_data, crime, surroundings
+        self.main_data = skelbimo_pavadinimas | skelbimo_santrauka | skelbimo_statistika | price_eur | coordinates | \
                          skelbimo_perziura | skelbimo_tekstas | e_klase | oro_tarsa | {'url_crawl': url_crawl}
 
         self.crime = pg_scraper.get_crime_chart_data(soup)
@@ -67,14 +82,8 @@ class scraped_data:
         self.surroundings = [[url_crawl] + row for row in self.surroundings]
         return self
 
-    def update_with_scraped_data(self, scraped_data_upd,url):
+    def update_with_scraped_data(self, scraped_data_upd, url):
 
-        # self.main_data = concat([self.main_data, scraped_data_upd.main_data], axis=0).reset_index(
-        #     drop=True)
-        # self.crime = concat([self.crime, scraped_data_upd.crime], axis=0).reset_index(
-        #     drop=True)
-        # self.surroundings = concat([self.surroundings, scraped_data_upd.surroundings],
-        #                            axis=0).reset_index(drop=True)
         if 'error_get_skelbimo_pavadinimas' in scraped_data_upd.main_data:
             print(f'Failed to scrape this URL: {url}')
             pass
@@ -98,15 +107,12 @@ class scraped_data:
 
     def to_df(self):
 
-
         self.main_data = pd.DataFrame(self.main_data)
         self.crime = pd.DataFrame(self.crime, columns=['url_crawl','Mėn.','Nusikaltimai 500 m spinduliu','periodas', 'error', "scrape_date"])
         self.surroundings = pd.DataFrame(self.surroundings, columns=['url_crawl','atstumas_km','istaiga','istaigos_tipas',"scrape_date"])
         self.clean_df()
         self.add_scrape_date()
         return self
-
-
 
     def save_all_csv(self, file_path, crawl_date_yyyy_mm_dd):
         self.main_data.to_csv(f'{file_path}/{crawl_date_yyyy_mm_dd}_scraped_main.csv', index=False)
@@ -176,7 +182,7 @@ def continue_previous_url_list(crawl_date_yyyy_mm_dd, tipas):
         # df_all_scraped_main = read_csv(f'/data/scraper/temporal/scraped_main_{crawl_date_yyyy_mm_dd}.csv')
         # df_all_scraped_crime = read_csv(f'/data/scraper/temporal/scraped_crime_{crawl_date_yyyy_mm_dd}.csv')
         # df_all_scraped_surroundings = read_csv(f'/data/scraper/temporal/scraped_surroundings_{crawl_date_yyyy_mm_dd}.csv')
-        scr_data = scraped_data(main_data=[], crime=[], surroundings=[])
+        scr_data = Ad(main_data=[], crime=[], surroundings=[])
         scr_data.make_from_temp_folder(crawl_date_yyyy_mm_dd)
 
     elif continue_old_list == 'n':
@@ -186,7 +192,7 @@ def continue_previous_url_list(crawl_date_yyyy_mm_dd, tipas):
         # df_all_scraped_main = DataFrame(columns=['url_crawl'])
         # df_all_scraped_crime = DataFrame(columns=['url_crawl'])
         # df_all_scraped_surroundings = DataFrame(columns=['url_crawl'])
-        scr_data = scraped_data(main_data=[], crime=[], surroundings=[])
+        scr_data = Ad(main_data=[], crime=[], surroundings=[])
         # scr_data.make_from_zero()
     else:
         print("Invalid input")
@@ -204,8 +210,8 @@ def get_driver():
 def enter_url(url, driver):
     driver.get(url)
     try:
-        time.sleep(0.3)
-        driver.find_element_by_id("onetrust-accept-btn-handler").click()
+        consent_banner = driver.find_elements(By.ID, "onetrust-accept-btn-handler")
+        consent_banner[0].click()
     except:
         pass
 

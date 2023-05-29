@@ -1,7 +1,7 @@
 import datetime
 import pandas as pd
-from aruodas_lib_2 import crawler as crl
-from aruodas_lib_2 import scraper_pipeline_utils as sc
+from aruodas_lib_2 import utils_crawler as crl
+from aruodas_lib_2 import utils_pipeline as sc
 
 pd.set_option('display.expand_frame_repr', True)
 
@@ -10,10 +10,6 @@ miestas = 'vilniuje'
 price_min : int = 300
 price_max : int = 1000
 
-START_URL = crl.set_START_URL(tipas, miestas, price_min, price_max)
-
-driver = sc.get_driver()
-crl.start_bot(START_URL, driver)
 
 '''
 From the given filter a START_URL is constructed. From here, we start the crawling process.
@@ -32,8 +28,12 @@ The final df gets deduplication and is saved into csv
     
 '''
 
-df_url_links = pd.DataFrame(columns=['url', 'date_crawled', 'first_search_url'])
+driver = sc.get_driver()
 
+START_URL = crl.set_START_URL(tipas, miestas, price_min, price_max)
+sc.enter_url(START_URL, driver)
+
+df_url_links = pd.DataFrame(columns=['url', 'date_crawled', 'first_search_url'])
 
 last_pg_no = crl.get_last_pg_no(driver)
 for pg_no in range(1, last_pg_no + 1):

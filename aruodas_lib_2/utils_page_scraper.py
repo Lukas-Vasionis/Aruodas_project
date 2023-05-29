@@ -7,17 +7,10 @@ import sys
 # """## **Skelbimo pavadinimas**""")
 
 def get_skelbimo_pavadinimas(soup):
-    '''
     try:
-        skelbimo_pavadinimas = re.sub('\s{2,}', '', soup.find_all(class_="obj-header-text")[0].get_text())
-        skelbimo_pavadinimas = pd.DataFrame({'skelbimo_pavadinimas': [skelbimo_pavadinimas]})
-        return (skelbimo_pavadinimas)
-    except Exception as error:
-        df = pd.DataFrame([error], columns=[f'error_{sys._getframe().f_code.co_name}'])
-    return df
-    '''
-    try:
-        skelbimo_pavadinimas = re.sub('\s{2,}', '', soup.find_all(class_="obj-header-text")[0].get_text())
+        # Scraping and trimming the Ad's name
+        skelbimo_pavadinimas = soup.find_all(class_="obj-header-text")[0].get_text()
+        skelbimo_pavadinimas = re.sub('\s{2,}', '',skelbimo_pavadinimas)
         skelbimo_pavadinimas = {'skelbimo_pavadinimas': skelbimo_pavadinimas}
     except Exception as error:
         skelbimo_pavadinimas = {f'error_{sys._getframe().f_code.co_name}': str(error)}
@@ -26,15 +19,11 @@ def get_skelbimo_pavadinimas(soup):
 
 def get_tbl_obj_details_v2(soup, class_name):
     """
-        ## **Skelbimo datos**
-        ## **Pagrindinė lentelė**
+    Scrapes on of two tables in the page
 
-
-    # ## **Pagrindinė lentelė**
-    Naudoti obj-stats klasę:  get_tbl_obj_details_v2(soup, "obj-stats")
-
-    # ## **Skelbimo datos**)
-    Naudoti obj-details klasę: get_tbl_obj_details_v2(soup, 'obj-details')
+    :param soup: bs4 object
+    :param class_name: Possible values - "obj-details" or "obj-stats" - to choose which data table to scrape (see page source)
+    :return: dict of page elements "obj-details" or "obj-stats"
     """
 
     def strip_strings_v2(ls):
@@ -44,31 +33,27 @@ def get_tbl_obj_details_v2(soup, class_name):
         return ls
 
     try:
+        # In case the class name changes, a regex pattern is created
         class_name = fr'{class_name}'
-
         regex = re.compile(f'.*{class_name}.*')
 
+        # Finding the choosen html object
         soup_dl = soup.find_all(class_=regex)[0]
 
+        # Converting its columns into key value pairs {dts:dds}
         dts = [x.get_text() for x in soup_dl.find_all('dt')]
         dds = [x.get_text() for x in soup_dl.find_all('dd')]
 
         dts = strip_strings_v2(dts)
         dds = strip_strings_v2(dds)
-        '''
-        df = pd.DataFrame(data={'parametras': dts, 'reiksmes': dds})
-        df = df.loc[df['reiksmes'] != 'None', :]
-        df = df.loc[~df['parametras'].str.contains('Reklama')]
 
-        df = df.set_index(df.columns[0]).transpose()
-        df = df.reset_index(drop=True)
-    except Exception as error:
-        df = pd.DataFrame([error], columns=[f'error_{sys._getframe().f_code.co_name}'])
-        '''
         data = dict(zip(dts, dds))
+
+        # Discarding the rubish
         data = {key: value for (key, value) in data.items() if value != 'None' if 'Reklama' not in key}
 
     except Exception as error:
+        # In case element is not found, the error is stored into the data
         data = {f'error_{sys._getframe().f_code.co_name}': str(error)}
     return data
 
@@ -101,14 +86,7 @@ def get_df_artimiausios_istaigos(soup):
     def get_df_row_istaigos(row):
         row_detail_data = row.table
         if row_detail_data is not None:
-            # df = pd.read_html(str(row_detail_data), flavor="bs4")[0]
-            # df.columns = ['atstumas_km', 'istaiga']
-            # df[['atstumas_km', 'matavimo_vnt']] = df.atstumas_km.str.replace('~', '').str.replace(',',
-            #                                                                                       '.').str.strip().str.split(
-            #     ' ', expand=True)
-            # df.atstumas_km = df.atstumas_km.astype('float64')
-            # df.loc[df.matavimo_vnt == 'm', 'atstumas_km'] = df.loc[df.matavimo_vnt == 'm', 'atstumas_km'] / 1000
-            # df = df.drop('matavimo_vnt', axis=1)
+
             surroundings = [row.findAll('td') for row in row_detail_data.findAll('tr')]
             surroundings = [x for x in surroundings if len(x) != 0]
             surroundings = [[x.text for x in td] for td in surroundings]
@@ -120,7 +98,6 @@ def get_df_artimiausios_istaigos(soup):
 
     def make_data_row(row_istaigu_tipas, row_istaigos):
         if row_istaigu_tipas != None or row_istaigos != None:
-            # df_row_istaigos.loc[:, 'istaigos_tipas'] = row_istaigu_tipas
             data_row = [[row_istaigu_tipas] + x for x in row_istaigos]
 
             return data_row
@@ -137,8 +114,7 @@ def get_df_artimiausios_istaigos(soup):
             if data_row != None:
                 data_all_rows = data_all_rows + data_row
 
-        # df_all_rows = pd.concat(df_all_rows).reset_index(drop=True)
-        # return (df_all_rows)
+
         return data_all_rows
     except Exception as error:
         data_all_rows = [[None, None, error]]
@@ -168,10 +144,6 @@ def get_crime_chart_data(soup):
         crime_chart_period = get_crime_chart_period(soup)
         soup_chart_div_crime = soup.find(id="advertStatisticHolder").find(id="chart_div_crime").table
 
-        # headers = [row.findAll('th') for row in soup_chart_div_crime.findAll('tr')]
-        # headers = [ x for x in headers if len(x) != 0][0]
-        # headers = [x.text for x in headers]
-
         crimes = [row.findAll('td') for row in soup_chart_div_crime.findAll('tr')]
         crimes = [x for x in crimes if len(x) != 0]
         crimes = [[x.text for x in td] for td in crimes]
@@ -185,14 +157,6 @@ def get_crime_chart_data(soup):
 
 # """## **Kaina**""")
 def get_price_eur(soup):
-    '''
-        try:
-            price_eur = soup.find_all(class_='price-eur')[0]
-            price_eur = int(re.sub('[\n|\s\|€]+', '', price_eur.text))
-            df = pd.DataFrame([price_eur], columns=['kaina_eur'])
-        except Exception as error:
-            df = pd.DataFrame([error], columns=[f'error_{sys._getframe().f_code.co_name}'])
-    '''
 
     try:
         price_eur = soup.find_all(class_='price-eur')[0]
@@ -225,8 +189,7 @@ def get_perziuru_sk(soup):
         skelbimo_perziura = [x.split(': ') for x in skelbimo_perziura]
         skelbimo_perziura = {k[0]: k[1:][0] for k in skelbimo_perziura}
 
-        # df = pd.DataFrame.from_dict(skelbimo_perziura)
-        # df = df.drop(['Įsiminė'], axis=1)
+
     except Exception as error:
         skelbimo_perziura = {f'error_{sys._getframe().f_code.co_name}': str(error)}
     return skelbimo_perziura
@@ -268,7 +231,7 @@ def get_air_polution_data(soup):
             col_values.append(val)
             col_names.append(col)
         air = dict(zip(col_names, col_values))
-        # df = pd.DataFrame([col_values], columns=col_names)
+
     except Exception as error:
         air = {f'error_{sys._getframe().f_code.co_name}': str(error)}
     return air

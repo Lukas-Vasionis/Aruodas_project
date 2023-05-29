@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import regex as re
 import pandas as pd
-import aruodas_lib_2.scraper_page_scraper as aruodas
+import aruodas_lib_2.utils_page_scraper as aruodas
 
 
 pd.set_option('display.expand_frame_repr', False)
