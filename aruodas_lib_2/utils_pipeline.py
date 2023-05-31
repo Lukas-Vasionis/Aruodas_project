@@ -1,23 +1,17 @@
+from . import utils_page_scraper as pg_scraper
 import os
-from os import getcwd, listdir, getcwd
-from os.path import dirname
-
+import time
+import lxml
+import datetime
 import pandas as pd
+from collections import ChainMap, Counter
 from pandas import read_csv, DataFrame, concat, ExcelWriter
 from bs4 import BeautifulSoup
-from collections import Counter
-
 from selenium.webdriver.common.by import By
-
-from . import utils_page_scraper as pg_scraper
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
-import time
-import datetime
-from collections import ChainMap
-import lxml
 
 
 # scraped_data
@@ -159,7 +153,7 @@ def continue_previous_url_list(crawl_date_yyyy_mm_dd, tipas):
             return list_url
 
         print(os.getcwd())
-        names_of_files = [x for x in listdir('./data/scraper/temporal') if crawl_date_yyyy_mm_dd in x]
+        names_of_files = [x for x in os.listdir('./data/scraper/temporal') if crawl_date_yyyy_mm_dd in x]
         scraped_urls = [get_list_urls(x) for x in names_of_files]
         scraped_urls = [j for i in scraped_urls for j in i]
 

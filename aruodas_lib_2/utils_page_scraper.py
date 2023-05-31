@@ -1,10 +1,6 @@
-from bs4 import BeautifulSoup
 import regex as re
-import pandas as pd
 import sys
 
-
-# """## **Skelbimo pavadinimas**""")
 
 def get_skelbimo_pavadinimas(soup):
     try:
@@ -27,13 +23,16 @@ def get_tbl_obj_details_v2(soup, class_name):
     """
 
     def strip_strings_v2(ls):
+        """
+        Formats strings scraped from page table
+        """
 
         ls = [x.replace(r"\s{2,}", '').replace("'", "").strip("\n").replace('\n', ', ').strip(', ') for x in ls]
         ls = [re.sub('(\s){2,}', '', x) for x in ls]
         return ls
 
     try:
-        # In case the class name changes, a regex pattern is created
+        # If the class name changes, a regex pattern is created
         class_name = fr'{class_name}'
         regex = re.compile(f'.*{class_name}.*')
 
@@ -58,12 +57,11 @@ def get_tbl_obj_details_v2(soup, class_name):
     return data
 
 
-# """## **Artimiausios įstaigos**""")
+
 def get_df_artimiausios_istaigos(soup):
-    '''
-    Reik sugalvot kaip patalpinti output - ar kaip nors į vieną eilutę,
-    ar kurt db
-    '''
+    """
+    Gathers data "Artimiausios įstaigos"
+    """
 
     def get_row_istaigu_tipas(row):
 
@@ -134,12 +132,6 @@ def get_crime_chart_data(soup):
         return crime_chart_period
 
     try:
-        '''
-        Reik sugalvot kaip patalpinti output - ar kaip nors į vieną eilutę,
-        ar kurt db
-    
-        Taipogi reik sugalvot efektyvų būdą konvertuoti periodas+mėn į datą
-        '''
 
         crime_chart_period = get_crime_chart_period(soup)
         soup_chart_div_crime = soup.find(id="advertStatisticHolder").find(id="chart_div_crime").table
@@ -155,7 +147,6 @@ def get_crime_chart_data(soup):
     return crimes
 
 
-# """## **Kaina**""")
 def get_price_eur(soup):
 
     try:
@@ -168,7 +159,6 @@ def get_price_eur(soup):
     return price_eur
 
 
-# """## **Koordinatės**""")
 def get_coordinates(soup):
     try:
         coordinates_href = soup.find_all(class_="link-obj-thumb vector-thumb-map")[0]['href']
@@ -181,7 +171,6 @@ def get_coordinates(soup):
     return coordinates
 
 
-# """## **Skelbimo lanomumas**""")
 def get_perziuru_sk(soup):
     try:
         skelbimo_perziura = soup.find_all(class_="obj-top-stats")[0].get_text().split('\n')

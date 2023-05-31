@@ -16,27 +16,30 @@ tipas = 'butu-nuoma'
 
 '''
 CREATING URL LIST FOR SCRAPING:
-a) scrape all URLs in list of crawled URLs
-b) scrape only those URLs that were not scraped from list
-    This is only for those cases when previous run was terminated in a middle
+* scrape all URLs in list of crawled URLs
+* If the connection is terminated, the scrapped data is stored
+    * This script allows you to start from were the scraping process was terminated
 '''
+
 # Preparing the data for terminated session. Follow the terminal.
 url_list, all_scr_data = sc.continue_previous_url_list(crawl_date_yyyy_mm_dd, tipas)
 
 driver = sc.get_driver()
 
-
 for url in tqdm(url_list):
     try:
         sc.enter_url(url, driver)
+        # Creating Obj to store data
         page_data = sc.Ad(main_data=None,
                                         crime=None,
                                         surroundings=None)
-
+        # Scrape data
         page_data.scrape_data(driver)
+        # Update previously gathered data
         all_scr_data.update_with_scraped_data(page_data, url)
 
     except Exception as error:
+        # If fails - print failure message and store everything into temproal data folder
         print(f'Failed to scrape this URL: {url}')
         print(f'Error: {error}')
 
