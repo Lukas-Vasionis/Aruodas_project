@@ -11,7 +11,6 @@ tipas = 'butai'
 crawl_date_yyyy_mm_dd = sc.get_crawl_date(crawl_date_as_yyyy_mm_dd=None)
 
 
-
 '''
 CREATING URL LIST FOR SCRAPING:
 * scrape all URLs in list of crawled URLs

@@ -139,6 +139,7 @@ def get_crawl_date(crawl_date_as_yyyy_mm_dd=None):
 
     return crawl_date_as_yyyy_mm_dd
 
+
 def continue_previous_url_list(crawl_date_yyyy_mm_dd, tipas):
     '''
     Lets you choose to continue scraping urls from previously terminated session
