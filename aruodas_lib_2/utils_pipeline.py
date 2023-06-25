@@ -116,11 +116,12 @@ class Ad:
 
     def save_all_xlsx(self, tipas, crawl_date_yyyy_mm_dd):
         file_name = f'data/scraper/{tipas}/{crawl_date_yyyy_mm_dd}/{crawl_date_yyyy_mm_dd}_scraped_all.xlsx'
-        writer = ExcelWriter(file_name, engine='xlsxwriter')
+        writer = ExcelWriter(file_name, engine='xlsxwriter',
+                        engine_kwargs = {'options': {'strings_to_urls': False}})
         self.main_data.to_excel(writer, sheet_name='scraped_main_data', index=False)
         self.crime.to_excel(writer, sheet_name='scraped_crime_data', index=False)
         self.surroundings.to_excel(writer, sheet_name='scraped_surroundings_data', index=False)
-        writer.save()
+        writer.close()
         return self
 
     def save_main_csv(self, tipas, crawl_date_yyyy_mm_dd):

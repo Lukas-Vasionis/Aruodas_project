@@ -11,10 +11,10 @@ Crawls over the search result pages that matched the defined filters and stores 
 '''
 # User input
 
-tipas = 'butu-nuoma'
+tipas = 'butai'
 miestas = 'vilniuje'
-price_min : int = 300
-price_max : int = 1000
+price_min : int = None
+price_max : int = None
 
 
 # The script
