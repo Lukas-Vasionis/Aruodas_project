@@ -4,15 +4,13 @@ import os
 from tqdm import tqdm
 from aruodas_lib_2 import utils_pipeline as sc
 
-def print_all_dfs(obj):
-    print(obj.main_data)
-    print(obj.crime)
-    print(obj.surroundings)
-
 pd.set_option('display.expand_frame_repr', False)
 
-crawl_date_yyyy_mm_dd = datetime.date.today().strftime("%Y_%m_%d")
-tipas = 'butu-nuoma'
+tipas = 'butai'
+#If none, takes todays date, else: give str in format yyyy_mm_dd
+crawl_date_yyyy_mm_dd = sc.get_crawl_date(crawl_date_as_yyyy_mm_dd=None)
+
+
 
 '''
 CREATING URL LIST FOR SCRAPING:

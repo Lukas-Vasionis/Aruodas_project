@@ -131,7 +131,13 @@ class Ad:
 
 
 
+def get_crawl_date(crawl_date_as_yyyy_mm_dd=None):
+    if crawl_date_as_yyyy_mm_dd is None:
+        crawl_date_as_yyyy_mm_dd = datetime.date.today().strftime("%Y_%m_%d")
+    else:
+        crawl_date_as_yyyy_mm_dd = crawl_date_as_yyyy_mm_dd
 
+    return crawl_date_as_yyyy_mm_dd
 
 def continue_previous_url_list(crawl_date_yyyy_mm_dd, tipas):
     '''
