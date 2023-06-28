@@ -29,17 +29,19 @@ sc.enter_url(START_URL, driver)
 df_url_links = pd.DataFrame(columns=['url', 'date_crawled', 'first_search_url'])# Creates an empty pd.Dataframe to store url data
 # In the contents START_URL we look for the number of the last page in the page ruler at the buttom of the page.
 # This lets to create for loop to itterate over the all search pages.
+
 last_pg_no = crl.get_last_pg_no(driver)
 
 for pg_no in range(1, last_pg_no + 1):
-    # Since the START_URL is the same as the 1st page in the search results, we apply url constuction to 2nd and later pages
-    if pg_no != 1:
-        pg_url=crl.construct_pg_url(START_URL, pg_no) # Constructs the page
-        crl.go_to_pg_url(pg_url, driver) # Goes to the page
 
-    print(f'Crawling over search results: page {pg_no}')
-    # Scrape search results: URLs of Ads, crawl date, URL of search results
-    df_url_links = crl.get_pg_url_links(df_url_links, START_URL, driver)
+        # Since the START_URL is the same as the 1st page in the search results, we apply url constuction to 2nd and later pages
+        if pg_no != 1:
+            pg_url=crl.construct_pg_url(START_URL, pg_no) # Constructs the page
+            crl.go_to_pg_url(pg_url, driver) # Goes to the page
+
+        print(f'Crawling over search results: page {pg_no}')
+        # Scrape search results: URLs of Ads, crawl date, URL of search results
+        df_url_links = crl.get_pg_url_links(df_url_links, START_URL, driver)
 
 driver.quit()
 

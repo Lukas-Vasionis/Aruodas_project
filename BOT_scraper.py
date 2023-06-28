@@ -7,6 +7,7 @@ from aruodas_lib_2 import utils_pipeline as sc
 pd.set_option('display.expand_frame_repr', False)
 
 tipas = 'butai'
+continue_old_list=None
 #If none, takes todays date, else: give str in format yyyy_mm_dd
 crawl_date_yyyy_mm_dd = sc.get_crawl_date(crawl_date_as_yyyy_mm_dd=None)
 
@@ -19,7 +20,7 @@ CREATING URL LIST FOR SCRAPING:
 '''
 
 # Preparing the data for terminated session. Follow the terminal.
-url_list, all_scr_data = sc.continue_previous_url_list(crawl_date_yyyy_mm_dd, tipas)
+url_list, all_scr_data = sc.continue_previous_url_list(crawl_date_yyyy_mm_dd, tipas, continue_old_list=continue_old_list)
 
 driver = sc.get_driver()
 

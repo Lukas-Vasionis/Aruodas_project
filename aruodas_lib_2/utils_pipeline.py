@@ -140,15 +140,13 @@ def get_crawl_date(crawl_date_as_yyyy_mm_dd=None):
     return crawl_date_as_yyyy_mm_dd
 
 
-def continue_previous_url_list(crawl_date_yyyy_mm_dd, tipas):
+def continue_previous_url_list(crawl_date_yyyy_mm_dd, tipas, continue_old_list=None):
     '''
     Lets you choose to continue scraping urls from previously terminated session
     '''
 
     def get_raw_urls():
         name_df = f'{crawl_date_yyyy_mm_dd}_date_crawled.csv'
-        # par_dir = dirname(getcwd())
-        # df_crawled = read_csv(f'{par_dir}/crawler/data/{tipas}/{name_df}')
         df_crawled = read_csv(f'data/crawler/{tipas}/{name_df}')
         url_list = df_crawled['url'].to_list()
         return url_list
@@ -169,9 +167,10 @@ def continue_previous_url_list(crawl_date_yyyy_mm_dd, tipas):
         scraped_urls = [value for value, count in counts.items() if count == 3]
         return scraped_urls
 
-    continue_old_list = input("Continue previously failed session? "
-                              "\n(Useful if previous execution was interrupted)"
-                              "\nType Y/n:")
+    if continue_old_list is None:
+        continue_old_list = input("Continue previously failed session? "
+                                  "\n(Useful if previous execution was interrupted)"
+                                  "\nType Y/n:")
 
     raw_url_list = get_raw_urls()
 
@@ -181,9 +180,6 @@ def continue_previous_url_list(crawl_date_yyyy_mm_dd, tipas):
         urls_not_scraped = [x for x in raw_url_list if x not in scarped_urls]
 
         url_list = urls_not_scraped
-        # df_all_scraped_main = read_csv(f'/data/scraper/temporal/scraped_main_{crawl_date_yyyy_mm_dd}.csv')
-        # df_all_scraped_crime = read_csv(f'/data/scraper/temporal/scraped_crime_{crawl_date_yyyy_mm_dd}.csv')
-        # df_all_scraped_surroundings = read_csv(f'/data/scraper/temporal/scraped_surroundings_{crawl_date_yyyy_mm_dd}.csv')
         scr_data = Ad(main_data=[], crime=[], surroundings=[])
         scr_data.make_from_temp_folder(crawl_date_yyyy_mm_dd)
 
@@ -191,11 +187,7 @@ def continue_previous_url_list(crawl_date_yyyy_mm_dd, tipas):
         print('Parsing through all URLs again')
 
         url_list = raw_url_list
-        # df_all_scraped_main = DataFrame(columns=['url_crawl'])
-        # df_all_scraped_crime = DataFrame(columns=['url_crawl'])
-        # df_all_scraped_surroundings = DataFrame(columns=['url_crawl'])
         scr_data = Ad(main_data=[], crime=[], surroundings=[])
-        # scr_data.make_from_zero()
     else:
         print("Invalid input")
         exit()
@@ -216,28 +208,6 @@ def enter_url(url, driver):
         consent_banner[0].click()
     except:
         pass
-
-#
-# def save_all_csv(file_path, crawl_date_yyyy_mm_dd, df_all_scraped_main, df_all_scraped_crime,
-#                  df_all_scraped_surroundings):
-#     df_all_scraped_main.to_csv(f'{file_path}/{crawl_date_yyyy_mm_dd}_scraped_main.csv', index=False)
-#     df_all_scraped_crime.to_csv(f'{file_path}/{crawl_date_yyyy_mm_dd}_scraped_crime.csv', index=False)
-#     df_all_scraped_surroundings.to_csv(f'{file_path}/{crawl_date_yyyy_mm_dd}_scraped_surroundings.csv', index=False)
-#
-#
-# def save_all_xlsx(tipas, crawl_date_yyyy_mm_dd, df_all_scraped_main, df_all_scraped_crime, df_all_scraped_surroundings):
-#     file_name = f'data/{tipas}/{crawl_date_yyyy_mm_dd}/{crawl_date_yyyy_mm_dd}_scraped_all.xlsx'
-#     writer = ExcelWriter(file_name, engine='xlsxwriter')
-#     df_all_scraped_main.to_excel(writer, sheet_name='scraped_main_data', index=False)
-#     df_all_scraped_crime.to_excel(writer, sheet_name='scraped_crime_data', index=False)
-#     df_all_scraped_surroundings.to_excel(writer, sheet_name='scraped_surroundings_data', index=False)
-#     writer.save()
-#
-#
-# def save_main_csv(tipas, crawl_date_yyyy_mm_dd, df_all_scraped_main):
-#     file_name = f'data/{tipas}/{crawl_date_yyyy_mm_dd}/{crawl_date_yyyy_mm_dd}_scraped_main_.csv'
-#     df_all_scraped_main.to_csv(file_name, index=False, sep=';')
-
 
 def get_html(url_index, url, driver):
     driver.get(url)
