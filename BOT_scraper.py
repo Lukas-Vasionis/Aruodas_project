@@ -9,7 +9,7 @@ pd.set_option('display.expand_frame_repr', False)
 tipas = 'butai'
 continue_old_list=None
 #If none, takes todays date, else: give str in format yyyy_mm_dd
-crawl_date_yyyy_mm_dd = sc.get_crawl_date(crawl_date_as_yyyy_mm_dd=None)
+crawl_date_yyyy_mm_dd = sc.get_crawl_date(crawl_date_as_yyyy_mm_dd='2023_08_08')
 
 
 '''

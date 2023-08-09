@@ -13,6 +13,7 @@ Crawls over the search result pages that matched the defined filters and stores 
 
 tipas = 'butai'
 miestas = 'vilniuje'
+
 price_min : int = None
 price_max : int = None
 

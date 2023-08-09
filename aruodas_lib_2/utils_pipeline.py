@@ -193,11 +193,13 @@ def continue_previous_url_list(crawl_date_yyyy_mm_dd, tipas, continue_old_list=N
         exit()
     return url_list, scr_data
 
+from selenium.webdriver.firefox.options import Options as FirefoxOptions
+
 
 def get_driver():
-    options = Options()
-    options.headless = False
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+    options = FirefoxOptions()
+    options.add_argument("--headless")
+    driver = webdriver.Firefox(options=options)
     return driver
 
 
