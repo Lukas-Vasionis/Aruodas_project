@@ -134,7 +134,11 @@ class Ad:
 def get_crawl_date(crawl_date_as_yyyy_mm_dd=None):
     if crawl_date_as_yyyy_mm_dd is None:
         crawl_date_as_yyyy_mm_dd = datetime.date.today().strftime("%Y_%m_%d")
-    else:
+    elif crawl_date_as_yyyy_mm_dd:
+        answer = input(f"The crawl date is set to: {crawl_date_as_yyyy_mm_dd}\n"
+              f"Write Y if you want to continue")
+        if answer != 'Y':
+            exit()
         crawl_date_as_yyyy_mm_dd = crawl_date_as_yyyy_mm_dd
 
     return crawl_date_as_yyyy_mm_dd
@@ -198,7 +202,7 @@ from selenium.webdriver.firefox.options import Options as FirefoxOptions
 
 def get_driver():
     options = FirefoxOptions()
-    options.add_argument("--headless")
+    # options.add_argument("--headless")
     driver = webdriver.Firefox(options=options)
     return driver
 
