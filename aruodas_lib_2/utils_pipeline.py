@@ -12,6 +12,10 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
+import regex as re
+import os
+import requests
+import zipfile
 
 
 # scraped_data
@@ -43,7 +47,6 @@ class Ad:
         self.surroundings = self.surroundings.values.tolist()
         return self
 
-
     def scrape_data(self, driver):
         '''
         Scrapes the data using funcs from scraper_page_scraper and concat it into 3 datasets of class Ad
@@ -56,14 +59,14 @@ class Ad:
         # First we create the separate objects with info about Ad. Every variable is a dict
         skelbimo_pavadinimas = pg_scraper.get_skelbimo_pavadinimas(soup)
         skelbimo_santrauka = pg_scraper.get_tbl_obj_details_v2(soup, 'obj-details')
-        skelbimo_statistika = pg_scraper.get_tbl_obj_details_v2(soup, "obj-stats") 
+        skelbimo_statistika = pg_scraper.get_tbl_obj_details_v2(soup, "obj-stats")
         price_eur = pg_scraper.get_price_eur(soup)
         coordinates = pg_scraper.get_coordinates(soup)
         skelbimo_perziura = pg_scraper.get_perziuru_sk(soup)
         skelbimo_tekstas = pg_scraper.get_skelbimo_tekstas(soup)
-        e_klase = pg_scraper.get_energy_consumption_class(soup) # Energy class
+        e_klase = pg_scraper.get_energy_consumption_class(soup)  # Energy class
         oro_tarsa = pg_scraper.get_air_polution_data(soup)
-        url_crawl = driver.current_url # Url with which one enters the page
+        url_crawl = driver.current_url  # Url with which one enters the page
 
         # Later, these objects are joined together into three datasets: main_data, crime, surroundings
         self.main_data = skelbimo_pavadinimas | skelbimo_santrauka | skelbimo_statistika | price_eur | coordinates | \
@@ -102,8 +105,12 @@ class Ad:
     def to_df(self):
 
         self.main_data = pd.DataFrame(self.main_data)
-        self.crime = pd.DataFrame(self.crime, columns=['url_crawl','Mėn.','Nusikaltimai 500 m spinduliu','periodas', 'error', "scrape_date"])
-        self.surroundings = pd.DataFrame(self.surroundings, columns=['url_crawl','atstumas_km','istaiga','istaigos_tipas',"scrape_date"])
+        self.crime = pd.DataFrame(self.crime,
+                                  columns=['url_crawl', 'Mėn.', 'Nusikaltimai 500 m spinduliu', 'periodas', 'error',
+                                           "scrape_date"])
+        self.surroundings = pd.DataFrame(self.surroundings,
+                                         columns=['url_crawl', 'atstumas_km', 'istaiga', 'istaigos_tipas',
+                                                  "scrape_date"])
         self.clean_df()
         self.add_scrape_date()
         return self
@@ -117,7 +124,7 @@ class Ad:
     def save_all_xlsx(self, tipas, crawl_date_yyyy_mm_dd):
         file_name = f'data/scraper/{tipas}/{crawl_date_yyyy_mm_dd}/{crawl_date_yyyy_mm_dd}_scraped_all.xlsx'
         writer = ExcelWriter(file_name, engine='xlsxwriter',
-                        engine_kwargs = {'options': {'strings_to_urls': False}})
+                             engine_kwargs={'options': {'strings_to_urls': False}})
         self.main_data.to_excel(writer, sheet_name='scraped_main_data', index=False)
         self.crime.to_excel(writer, sheet_name='scraped_crime_data', index=False)
         self.surroundings.to_excel(writer, sheet_name='scraped_surroundings_data', index=False)
@@ -130,16 +137,20 @@ class Ad:
         return self
 
 
-
 def get_crawl_date(crawl_date_as_yyyy_mm_dd=None):
     if crawl_date_as_yyyy_mm_dd is None:
         crawl_date_as_yyyy_mm_dd = datetime.date.today().strftime("%Y_%m_%d")
-    elif crawl_date_as_yyyy_mm_dd:
+    elif re.fullmatch(re.compile(r"[1-2][0-9][0-9][0-9]_[0-2][0-9]_[0-3][0-9]"), crawl_date_as_yyyy_mm_dd) != None:
         answer = input(f"The crawl date is set to: {crawl_date_as_yyyy_mm_dd}\n"
-              f"Write Y if you want to continue")
-        if answer != 'Y':
+                       f"Write Y if you want to continue")
+        if answer == 'Y':
+            crawl_date_as_yyyy_mm_dd = crawl_date_as_yyyy_mm_dd
+        elif answer != 'Y':
+            print("Exiting ...")
             exit()
-        crawl_date_as_yyyy_mm_dd = crawl_date_as_yyyy_mm_dd
+    else:
+        print("Wrong date string. Check for errors; the format is yyyy_mm_dd")
+        exit()
 
     return crawl_date_as_yyyy_mm_dd
 
@@ -197,13 +208,37 @@ def continue_previous_url_list(crawl_date_yyyy_mm_dd, tipas, continue_old_list=N
         exit()
     return url_list, scr_data
 
+
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
 
 
-def get_driver():
+def get_driver(geckodriver_url, geckodriver_folder, firefox_path):
+    def download_and_unzip_geckodriver(geckodriver_url, geckodriver_folder):
+        # Check if geckodriver zip file already exists
+        zip_name = "geckodriver-v0.34.0-win32.zip"
+        zip_path = os.path.join(geckodriver_folder, zip_name)
+
+        if not os.path.exists(zip_path):
+            # Download the file
+            print("Downloading geckodriver...")
+            response = requests.get(geckodriver_url)
+            with open(zip_path, 'wb') as file:
+                file.write(response.content)
+
+            # Unzip the file
+            with zipfile.ZipFile(zip_path, 'r') as zip_ref:
+                zip_ref.extractall(geckodriver_folder)
+            print(f"Geckodriver unzipped in {geckodriver_folder}")
+
+        else:
+            print("Geckodriver already exists.")
+
+    # Usage
+    download_and_unzip_geckodriver(geckodriver_url, geckodriver_folder)
+    # execution
     options = FirefoxOptions()
-    # options.add_argument("--headless")
-    driver = webdriver.Firefox(options=options)
+    options.binary_location = firefox_path
+    driver = webdriver.Firefox(executable_path=fr'{geckodriver_folder}\geckodriver.exe', options=options)
     return driver
 
 
@@ -214,6 +249,7 @@ def enter_url(url, driver):
         consent_banner[0].click()
     except:
         pass
+
 
 def get_html(url_index, url, driver):
     driver.get(url)
