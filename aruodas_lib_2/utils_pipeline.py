@@ -1,21 +1,20 @@
 from . import utils_page_scraper as pg_scraper
-import os
 import time
 import lxml
 import datetime
 import pandas as pd
-from collections import ChainMap, Counter
-from pandas import read_csv, DataFrame, concat, ExcelWriter
+from collections import Counter
+from pandas import read_csv, ExcelWriter
 from bs4 import BeautifulSoup
 from selenium.webdriver.common.by import By
 from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
 import regex as re
 import os
 import requests
 import zipfile
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.firefox.options import Options as FirefoxOptions
 
 
 # scraped_data
@@ -66,11 +65,12 @@ class Ad:
         skelbimo_tekstas = pg_scraper.get_skelbimo_tekstas(soup)
         e_klase = pg_scraper.get_energy_consumption_class(soup)  # Energy class
         oro_tarsa = pg_scraper.get_air_polution_data(soup)
+        url_photos = pg_scraper.get_photo_urls(driver)
         url_crawl = driver.current_url  # Url with which one enters the page
 
         # Later, these objects are joined together into three datasets: main_data, crime, surroundings
         self.main_data = skelbimo_pavadinimas | skelbimo_santrauka | skelbimo_statistika | price_eur | coordinates | \
-                         skelbimo_perziura | skelbimo_tekstas | e_klase | oro_tarsa | {'url_crawl': url_crawl}
+                         skelbimo_perziura | skelbimo_tekstas | e_klase | oro_tarsa | url_photos | {'url_crawl': url_crawl}
 
         self.crime = pg_scraper.get_crime_chart_data(soup)
         self.crime = [[url_crawl] + row for row in self.crime]
@@ -142,7 +142,7 @@ def get_crawl_date(crawl_date_as_yyyy_mm_dd=None):
         crawl_date_as_yyyy_mm_dd = datetime.date.today().strftime("%Y_%m_%d")
     elif re.fullmatch(re.compile(r"[1-2][0-9][0-9][0-9]_[0-2][0-9]_[0-3][0-9]"), crawl_date_as_yyyy_mm_dd) != None:
         answer = input(f"The crawl date is set to: {crawl_date_as_yyyy_mm_dd}\n"
-                       f"Write Y if you want to continue")
+                       f"Write Y if you want to continue: ")
         if answer == 'Y':
             crawl_date_as_yyyy_mm_dd = crawl_date_as_yyyy_mm_dd
         elif answer != 'Y':
@@ -209,7 +209,6 @@ def continue_previous_url_list(crawl_date_yyyy_mm_dd, tipas, continue_old_list=N
     return url_list, scr_data
 
 
-from selenium.webdriver.firefox.options import Options as FirefoxOptions
 
 
 def get_driver(geckodriver_url, geckodriver_folder, firefox_path):
@@ -231,14 +230,18 @@ def get_driver(geckodriver_url, geckodriver_folder, firefox_path):
             print(f"Geckodriver unzipped in {geckodriver_folder}")
 
         else:
-            print("Geckodriver already exists.")
+            print("Geckodriver already installed.")
 
     # Usage
     download_and_unzip_geckodriver(geckodriver_url, geckodriver_folder)
-    # execution
+
+
+
+    service = Service(executable_path=fr'{geckodriver_folder}\geckodriver.exe')
     options = FirefoxOptions()
     options.binary_location = firefox_path
-    driver = webdriver.Firefox(executable_path=fr'{geckodriver_folder}\geckodriver.exe', options=options)
+    driver = webdriver.Firefox(service=service, options=options)
+
     return driver
 
 

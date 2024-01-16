@@ -1,3 +1,6 @@
+import time
+from pprint import pprint
+
 import regex as re
 import sys
 
@@ -224,3 +227,31 @@ def get_air_polution_data(soup):
     except Exception as error:
         air = {f'error_{sys._getframe().f_code.co_name}': str(error)}
     return air
+
+
+def get_photo_urls(driver):
+    """
+    gets comma separated photo links into single value
+    """
+
+    try:
+        # Finding pattern smatching urls of photos within page source
+        soup = driver.page_source
+        pattern = r"https://aruodas-img\.dgn\.lt/object_[\w-]+/[\w-]+\.jpg"
+        urls = re.findall(pattern, soup)
+        urls = list(set(urls))
+
+        if len(urls)!=0:
+            # if found  any - put it into dict
+            urls = ",".join(urls)
+            photos = {'photos':urls}
+        else:
+            # else put empty string
+            urls = ""
+            photos = {'photos': urls}
+
+            print("No photo URL detected")
+
+    except Exception as error:
+        photos = {f'error_{sys._getframe().f_code.co_name}': str(error)}
+    return photos
