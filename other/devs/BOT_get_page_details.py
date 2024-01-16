@@ -18,7 +18,6 @@ def bot_click():
 
     my_url = 'https://www.aruodas.lt/butai/vilniuje/?FPriceMin=100000&FPriceMax=200000'
     driver.get(my_url)
-    # time.sleep(2)
     driver.find_element_by_id("onetrust-accept-btn-handler").click()
 
     def get_list_web(page_source):
