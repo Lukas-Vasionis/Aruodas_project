@@ -29,7 +29,10 @@ price_max : int = args.price_max
 # for tipas in ['butai', 'butu-nuoma']:
     # The script
 
-driver = sc.get_driver()
+driver = sc.get_driver(
+    geckodriver_url="https://github.com/mozilla/geckodriver/releases/download/v0.34.0/geckodriver-v0.34.0-win32.zip",
+    geckodriver_folder="./other",
+    firefox_path='C:/Program Files/Mozilla Firefox/firefox.exe')
 
 # From the given filter a START_URL is constructed. From here, we start the crawling process.
 START_URL = crl.set_START_URL(tipas, miestas, price_min, price_max)

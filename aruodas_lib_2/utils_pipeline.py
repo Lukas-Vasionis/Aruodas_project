@@ -13,7 +13,7 @@ import regex as re
 import os
 import requests
 import zipfile
-from webdriver_manager.chrome import ChromeDriverManager
+# from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
 
 
